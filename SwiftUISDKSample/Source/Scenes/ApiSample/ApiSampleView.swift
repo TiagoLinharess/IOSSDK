@@ -11,8 +11,12 @@ import SDKCloud
 
 struct ApiSampleView: View {
     
-    @StateObject var appState: ApiSampleState
-    let interactor: ApiSampleInteractorInput
+    // MARK: - Properties
+    
+    @StateObject private var appState: ApiSampleState
+    private let interactor: ApiSampleInteractorInput
+    
+    // MARK: - Body
     
     var body: some View {
         VStack {
@@ -22,6 +26,11 @@ struct ApiSampleView: View {
             Spacer()
         }
     }
+}
+
+extension ApiSampleView {
+    
+    // MARK: - UI Elements
     
     @ViewBuilder var textField: some View {
         TextField("Enter repo name", text: $appState.textFieldValue)
