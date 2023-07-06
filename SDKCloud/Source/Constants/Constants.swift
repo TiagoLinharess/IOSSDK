@@ -32,4 +32,14 @@ enum Constants {
         /// value: No response from server.
         static let noResponseFromServer: String = "No response from server"
     }
+    
+    // MARK: - Error
+    
+    /// Error Constants
+    enum Error {
+        
+        /// Default error message.
+        /// value: Ops, something went wrong, please try again later
+        static let defaultMessage: String = "Ops, something went wrong, please try again later"
+    }
 }

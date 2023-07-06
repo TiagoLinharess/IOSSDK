@@ -15,7 +15,7 @@ extension Error {
     
     /// Creates a defaul ApiError.
     public var defaultApiError: ApiError {
-        .customError("Ops, something went wrong, please try again later")
+        .customError(Constants.Error.defaultMessage)
     }
     
     // MARK: - Public Methods
