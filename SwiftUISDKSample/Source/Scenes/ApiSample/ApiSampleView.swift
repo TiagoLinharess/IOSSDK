@@ -5,16 +5,16 @@
 //  Created by Tiago Linhares on 04/07/23.
 //
 
-import SwiftUI
+import DesignSystem
 import SDKCore
-import SDKCloud
+import SwiftUI
 
 struct ApiSampleView: View {
     
     // MARK: - Properties
     
-    @StateObject private var appState: ApiSampleState
-    private let interactor: ApiSampleInteractorInput
+    @StateObject var appState: ApiSampleState
+    let interactor: ApiSampleInteractorInput
     
     // MARK: - Body
     
@@ -36,7 +36,7 @@ extension ApiSampleView {
         TextField("Enter repo name", text: $appState.textFieldValue)
             .autocorrectionDisabled(true)
             .textFieldStyle(.roundedBorder)
-            .padding(.horizontal, 60)
+            .padding(.horizontal, .superLarge)
     }
     
     @ViewBuilder var searchButton: some View {
@@ -45,7 +45,7 @@ extension ApiSampleView {
                 await interactor.perform(repositoryName: appState.textFieldValue)
             }
         }
-        .padding(.bottom, 40)
+        .padding(.bottom, .superBig)
     }
     
     @ViewBuilder var bottomSpacer: some View {
@@ -74,7 +74,7 @@ extension ApiSampleView {
             } placeholder: {
                 loadingView
             }
-            .frame(width: 60, height: 60)
+            .frame(width: .superLarge, height: .superLarge)
             Text(repository.name)
         } else {
             errorView(errorMessage: "No data")
@@ -87,7 +87,7 @@ extension ApiSampleView {
     
     @ViewBuilder var noneView: some View {
         Spacer()
-            .frame(height: 0)
+            .frame(height: .zero)
     }
     
     @ViewBuilder func errorView(errorMessage: String) -> some View {

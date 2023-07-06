@@ -8,13 +8,20 @@
 import Foundation
 
 protocol ApiSampleInteractorInput {
+    
+    // MARK: - Protocol
+    
     func perform(repositoryName: String) async
 }
 
 struct ApiSampleInteractor {
     
-    let worker: ApiSampleWorkerInput
-    let presenter: ApiSamplePresenterInput
+    // MARK: - Properties
+    
+    private let worker: ApiSampleWorkerInput
+    private let presenter: ApiSamplePresenterInput
+    
+    // MARK: - Init
     
     init(presenter: ApiSamplePresenterInput, worker: ApiSampleWorkerInput = ApiSampleWorker()) {
         self.worker = worker
@@ -23,6 +30,8 @@ struct ApiSampleInteractor {
 }
 
 extension ApiSampleInteractor: ApiSampleInteractorInput {
+    
+    // MARK: - Public Methods
     
     func perform(repositoryName: String) async {
         presenter.presentLoading()

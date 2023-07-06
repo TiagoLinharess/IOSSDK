@@ -35,7 +35,6 @@
 		ED08FFFB2A56180D00CABB93 /* SDKCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AECB2A55D5000013D295 /* SDKCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED08FFFF2A56181000CABB93 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED653AB32A56F0840022A06F /* CGFloat+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB22A56F0840022A06F /* CGFloat+extensions.swift */; };
-		ED653AB62A56F2370022A06F /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB52A56F2370022A06F /* UIColor+extensions.swift */; };
 		ED653AB92A56F38E0022A06F /* UIImageView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB82A56F38E0022A06F /* UIImageView+extensions.swift */; };
 		ED653AC32A5703A00022A06F /* DesignSystem.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED653AC22A5703A00022A06F /* DesignSystem.docc */; };
 		ED653AC92A5703A10022A06F /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED653ABF2A5703A00022A06F /* DesignSystem.framework */; };
@@ -213,7 +212,6 @@
 		ED08001D2A56241200CABB93 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		ED08FFEB2A56179200CABB93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED653AB22A56F0840022A06F /* CGFloat+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+extensions.swift"; sourceTree = "<group>"; };
-		ED653AB52A56F2370022A06F /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
 		ED653AB82A56F38E0022A06F /* UIImageView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+extensions.swift"; sourceTree = "<group>"; };
 		ED653ABF2A5703A00022A06F /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED653AC12A5703A00022A06F /* DesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignSystem.h; sourceTree = "<group>"; };
@@ -384,7 +382,6 @@
 		ED653AB02A56F0550022A06F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				ED653AB42A56F2220022A06F /* UIColor */,
 				ED653AB72A56F34D0022A06F /* UIImageView */,
 			);
 			path = Extensions;
@@ -396,14 +393,6 @@
 				ED653AB22A56F0840022A06F /* CGFloat+extensions.swift */,
 			);
 			path = CGFloat;
-			sourceTree = "<group>";
-		};
-		ED653AB42A56F2220022A06F /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				ED653AB52A56F2370022A06F /* UIColor+extensions.swift */,
-			);
-			path = UIColor;
 			sourceTree = "<group>";
 		};
 		ED653AB72A56F34D0022A06F /* UIImageView */ = {
@@ -1162,7 +1151,6 @@
 				ED99AF362A55E8AC0013D295 /* ViewStatus.swift in Sources */,
 				ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */,
 				ED653AB32A56F0840022A06F /* CGFloat+extensions.swift in Sources */,
-				ED653AB62A56F2370022A06F /* UIColor+extensions.swift in Sources */,
 				ED653AB92A56F38E0022A06F /* UIImageView+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,8 @@ import SwiftUI
 
 enum ApiSampleFactory {
     
+    // MARK: - View Configuration
+    
     static func configure() -> any View {
         let appState = ApiSampleState()
         let presenter = ApiSamplePresenter(appState: appState)

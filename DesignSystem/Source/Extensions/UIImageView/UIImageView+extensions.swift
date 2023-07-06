@@ -5,7 +5,6 @@
 //  Created by Tiago Linhares on 06/07/23.
 //
 
-import SDKCore
 import UIKit
 
 extension UIImageView {

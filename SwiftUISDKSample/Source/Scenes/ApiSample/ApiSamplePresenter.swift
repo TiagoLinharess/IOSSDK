@@ -9,6 +9,9 @@ import Foundation
 import SDKCloud
 
 protocol ApiSamplePresenterInput {
+    
+    // MARK: - Protocol
+    
     func presentSuccess(from response: Repository.Response)
     func presentLoading()
     func presentError(error: Error)
@@ -16,7 +19,11 @@ protocol ApiSamplePresenterInput {
 
 struct ApiSamplePresenter {
     
-    let appState: ApiSampleState
+    // MARK: - Properties
+    
+    private let appState: ApiSampleState
+    
+    // MARK: - Init
     
     init(appState: ApiSampleState) {
         self.appState = appState
@@ -24,6 +31,9 @@ struct ApiSamplePresenter {
 }
 
 extension ApiSamplePresenter: ApiSamplePresenterInput {
+    
+    // MARK: - Public Methods
+    
     func presentSuccess(from response: Repository.Response) {
         let viewModel = Repository.ViewModel(from: response)
         
