@@ -5,13 +5,10 @@
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control?
 #
 Pods/
-DeliveriU.xcworkspace/
-DeliveriU.xcarchive
 releases
 *.mobileprovision
 *.zip
 .DS_Store
-**/fastlane/report.xml
 build/
 *.pbxuser
 !default.pbxuser
@@ -29,8 +26,3 @@ DerivedData
 *.ipa
 *.xcuserstate
 Podfile.lock
-fastlane/screenshots/
-fastlane/test_output/
-fastlane/push_certificates/
-fastlane/cert/
-fastlane/Termos Pendentes.csv
