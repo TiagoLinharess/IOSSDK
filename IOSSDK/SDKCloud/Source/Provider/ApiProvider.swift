@@ -7,14 +7,31 @@
 
 import Foundation
 
+// MARK: - ApiProviderInput
+
+/// ApiProvider Protocol.
 public protocol ApiProviderInput {
+    
+    /// Perform HTTP request provider.
     func callMethod(request: ApiRequestInput) async throws -> Data
 }
 
-public final class ApiProvider: ApiProviderInput {
+// MARK: - ApiProvider
+
+/// ApiProvider.
+public final class ApiProvider {
     
+    // MARK: - Public Init
+    
+    /// Initialize provider.
     public init() {}
+}
+
+extension ApiProvider: ApiProviderInput {
     
+    // MARK: - Provider Request
+    
+    /// Perform HTTP request provider.
     public func callMethod(request: ApiRequestInput) async throws -> Data {
         let urlRequest = try getURL(request: request)
         let (data, response) = try await URLSession.shared.data(for: urlRequest)
@@ -32,6 +49,10 @@ public final class ApiProvider: ApiProviderInput {
 }
 
 private extension ApiProvider {
+    
+    // MARK: - Build URL
+    
+    /// Get URL request
     func getURL(request: ApiRequestInput) throws -> URLRequest {
         guard let urlString = SDKCloudConfiguration.shared.baseUrl,
               let url = URL(string: urlString + request.endpoint)
