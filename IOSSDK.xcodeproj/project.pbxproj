@@ -34,7 +34,6 @@
 		ED08FFFA2A56180D00CABB93 /* SDKCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AECB2A55D5000013D295 /* SDKCloud.framework */; };
 		ED08FFFB2A56180D00CABB93 /* SDKCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AECB2A55D5000013D295 /* SDKCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED08FFFF2A56181000CABB93 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
-		ED653AB32A56F0840022A06F /* CGFloat+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB22A56F0840022A06F /* CGFloat+extensions.swift */; };
 		ED653AB92A56F38E0022A06F /* UIImageView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB82A56F38E0022A06F /* UIImageView+extensions.swift */; };
 		ED653AC32A5703A00022A06F /* DesignSystem.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED653AC22A5703A00022A06F /* DesignSystem.docc */; };
 		ED653AC92A5703A10022A06F /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED653ABF2A5703A00022A06F /* DesignSystem.framework */; };
@@ -52,13 +51,16 @@
 		ED653AF02A5705DC0022A06F /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED653AF12A5705DC0022A06F /* SDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED653AF72A5706650022A06F /* UIImageView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AF62A5706650022A06F /* UIImageView+extensions.swift */; };
+		ED653AFF2A571A020022A06F /* ApiProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AFE2A571A020022A06F /* ApiProviderTests.swift */; };
+		ED653B002A571C4D0022A06F /* CGFloat+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB22A56F0840022A06F /* CGFloat+extensions.swift */; };
+		ED653B022A574CB40022A06F /* ApiWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653B012A574CB40022A06F /* ApiWorkerTests.swift */; };
+		ED653B072A574CF70022A06F /* ApiProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653B062A574CF70022A06F /* ApiProviderMock.swift */; };
 		ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEB22A55D4E50013D295 /* SDKCore.docc */; };
 		ED99AEB92A55D4E60013D295 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED99AEBE2A55D4E60013D295 /* SDKCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEBD2A55D4E60013D295 /* SDKCoreTests.swift */; };
 		ED99AEBF2A55D4E60013D295 /* SDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99AEB12A55D4E50013D295 /* SDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED99AECF2A55D5000013D295 /* SDKCloud.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AECE2A55D5000013D295 /* SDKCloud.docc */; };
 		ED99AED52A55D5000013D295 /* SDKCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AECB2A55D5000013D295 /* SDKCloud.framework */; };
-		ED99AEDA2A55D5000013D295 /* SDKCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AED92A55D5000013D295 /* SDKCloudTests.swift */; };
 		ED99AEDB2A55D5000013D295 /* SDKCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99AECD2A55D5000013D295 /* SDKCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED99AF152A55E4E30013D295 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF142A55E4E30013D295 /* Constants.swift */; };
 		ED99AF162A55E5CA0013D295 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF0B2A55DAF20013D295 /* ApiProvider.swift */; };
@@ -220,6 +222,9 @@
 		ED653ACD2A5703A10022A06F /* DesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemTests.swift; sourceTree = "<group>"; };
 		ED653AE92A5705850022A06F /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
 		ED653AF62A5706650022A06F /* UIImageView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+extensions.swift"; sourceTree = "<group>"; };
+		ED653AFE2A571A020022A06F /* ApiProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderTests.swift; sourceTree = "<group>"; };
+		ED653B012A574CB40022A06F /* ApiWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiWorkerTests.swift; sourceTree = "<group>"; };
+		ED653B062A574CF70022A06F /* ApiProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderMock.swift; sourceTree = "<group>"; };
 		ED99AEAF2A55D4E50013D295 /* SDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED99AEB12A55D4E50013D295 /* SDKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCore.h; sourceTree = "<group>"; };
 		ED99AEB22A55D4E50013D295 /* SDKCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCore.docc; sourceTree = "<group>"; };
@@ -229,7 +234,6 @@
 		ED99AECD2A55D5000013D295 /* SDKCloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCloud.h; sourceTree = "<group>"; };
 		ED99AECE2A55D5000013D295 /* SDKCloud.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCloud.docc; sourceTree = "<group>"; };
 		ED99AED42A55D5000013D295 /* SDKCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED99AED92A55D5000013D295 /* SDKCloudTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKCloudTests.swift; sourceTree = "<group>"; };
 		ED99AEEC2A55D54F0013D295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED99AF092A55DAD80013D295 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		ED99AF0A2A55DAEC0013D295 /* ApiWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiWorker.swift; sourceTree = "<group>"; };
@@ -455,6 +459,48 @@
 			path = UIImageView;
 			sourceTree = "<group>";
 		};
+		ED653AFA2A5719600022A06F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				ED653AFC2A5719A00022A06F /* Mocks */,
+				ED653AFB2A5719650022A06F /* Tests */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		ED653AFB2A5719650022A06F /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED653AFD2A5719AE0022A06F /* Provider */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		ED653AFC2A5719A00022A06F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				ED653B032A574CC10022A06F /* Provider */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		ED653AFD2A5719AE0022A06F /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				ED653AFE2A571A020022A06F /* ApiProviderTests.swift */,
+				ED653B012A574CB40022A06F /* ApiWorkerTests.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		ED653B032A574CC10022A06F /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				ED653B062A574CF70022A06F /* ApiProviderMock.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
 		ED99AE972A55D4AC0013D295 = {
 			isa = PBXGroup;
 			children = (
@@ -518,7 +564,7 @@
 		ED99AED82A55D5000013D295 /* SDKCloudTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED99AED92A55D5000013D295 /* SDKCloudTests.swift */,
+				ED653AFA2A5719600022A06F /* Source */,
 			);
 			path = SDKCloudTests;
 			sourceTree = "<group>";
@@ -1132,6 +1178,7 @@
 			files = (
 				ED653AF72A5706650022A06F /* UIImageView+extensions.swift in Sources */,
 				ED653AC32A5703A00022A06F /* DesignSystem.docc in Sources */,
+				ED653B002A571C4D0022A06F /* CGFloat+extensions.swift in Sources */,
 				ED653AEA2A5705850022A06F /* UIColor+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1150,7 +1197,6 @@
 			files = (
 				ED99AF362A55E8AC0013D295 /* ViewStatus.swift in Sources */,
 				ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */,
-				ED653AB32A56F0840022A06F /* CGFloat+extensions.swift in Sources */,
 				ED653AB92A56F38E0022A06F /* UIImageView+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1187,7 +1233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED99AEDA2A55D5000013D295 /* SDKCloudTests.swift in Sources */,
+				ED653B072A574CF70022A06F /* ApiProviderMock.swift in Sources */,
+				ED653B022A574CB40022A06F /* ApiWorkerTests.swift in Sources */,
+				ED653AFF2A571A020022A06F /* ApiProviderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
