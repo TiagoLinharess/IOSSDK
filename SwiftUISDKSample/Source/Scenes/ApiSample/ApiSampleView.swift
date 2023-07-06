@@ -23,7 +23,7 @@ struct ApiSampleView: View {
             textField
             searchButton
             searchResult
-            Spacer()
+            bottomSpacer
         }
     }
 }
@@ -46,6 +46,10 @@ extension ApiSampleView {
             }
         }
         .padding(.bottom, 40)
+    }
+    
+    @ViewBuilder var bottomSpacer: some View {
+        Spacer()
     }
     
     @ViewBuilder var searchResult: some View {

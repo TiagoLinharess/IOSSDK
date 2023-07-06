@@ -8,23 +8,6 @@
 import SwiftUI
 import UIKit
 
-extension UIColor  {
-    
-    // MARK: - Colors
-    
-    /// Green Primary
-    /// #68C151
-    public static var greenPrimary: UIColor {
-        return hexStringToUIColor(hex: "#68C151")
-    }
-    
-    /// Ligh Gray
-    /// #EBEDEF
-    public static var lightGray: UIColor {
-        return hexStringToUIColor(hex: "#EBEDEF")
-    }
-}
-
 extension UIColor {
     
     // MARK: - UIColor to Color
