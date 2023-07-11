@@ -1,4 +1,5 @@
 # Uncomment the next line to define a global platform for your project
+ source 'https://github.com/CocoaPods/Specs.git'
  platform :ios, '16.4'
 
 def pods_for_tests
@@ -44,8 +45,7 @@ end
 target 'UIKitSDKSample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
-  # Pods for SDKSample
+  pod 'SnapKit', '~> 5.6.0'
 
 end
 

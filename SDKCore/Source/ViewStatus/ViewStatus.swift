@@ -7,6 +7,6 @@
 
 import Foundation
 
-public enum ViewStatus {
+public enum ViewStatus: Equatable {
     case success, loading, none, error(String)
 }

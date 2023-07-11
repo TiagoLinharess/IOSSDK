@@ -9,14 +9,11 @@ import UIKit
 
 extension UIImageView {
     
-    // MARK: - Make Rounded
+    // MARK: - Corner Radius
 
     /// Make image rounded
-    public func makeRounded() {
-        self.layer.borderWidth = .one
-        self.layer.masksToBounds = false
-        self.layer.borderColor = UIColor.black.cgColor
-        self.layer.cornerRadius = self.frame.height / .two
+    public func cornerRadius(radius: CGFloat) {
         self.clipsToBounds = true
+        self.layer.cornerRadius = radius
     }
 }

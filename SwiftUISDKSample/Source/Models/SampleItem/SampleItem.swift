@@ -13,6 +13,7 @@ struct SampleItem: Identifiable {
     let name: String
     
     static var samples: [SampleItem] = [
-        SampleItem(view: ApiSampleFactory.configure(), name: "ApiSampleView")
+        .init(view: ApiSampleFactory.configure(), name: "ApiSampleView"),
+        .init(view: ViewStatusSampleView(), name: "View Status Sample")
     ]
 }

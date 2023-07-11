@@ -17,7 +17,7 @@ extension UIImageView {
             guard let data = try? Data(contentsOf: url),
                   let image = UIImage(data: data)
             else {
-                self?.image = UIImage(systemName: "exclamationmark.octagon")
+                self?.image = UIImage(systemName: Constants.UIKit.defaultURLImageName)
                 return
             }
             
