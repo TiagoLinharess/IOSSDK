@@ -75,9 +75,10 @@
 		ED786EE82A5DD4AD00661893 /* UIImageFromURLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EE72A5DD4AD00661893 /* UIImageFromURLFactory.swift */; };
 		ED786EED2A5DE7FC00661893 /* ViewStatusSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EEC2A5DE7FC00661893 /* ViewStatusSampleView.swift */; };
 		ED786EF42A5F370800661893 /* ColorsFromHexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EF32A5F370800661893 /* ColorsFromHexView.swift */; };
+		ED786EFE2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EFD2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift */; };
+		ED786F042A5F4B6600661893 /* EmptyViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */; };
 		ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEB22A55D4E50013D295 /* SDKCore.docc */; };
 		ED99AEB92A55D4E60013D295 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
-		ED99AEBE2A55D4E60013D295 /* SDKCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEBD2A55D4E60013D295 /* SDKCoreTests.swift */; };
 		ED99AEBF2A55D4E60013D295 /* SDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99AEB12A55D4E50013D295 /* SDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED99AECF2A55D5000013D295 /* SDKCloud.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AECE2A55D5000013D295 /* SDKCloud.docc */; };
 		ED99AED52A55D5000013D295 /* SDKCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AECB2A55D5000013D295 /* SDKCloud.framework */; };
@@ -274,11 +275,12 @@
 		ED786EE72A5DD4AD00661893 /* UIImageFromURLFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageFromURLFactory.swift; sourceTree = "<group>"; };
 		ED786EEC2A5DE7FC00661893 /* ViewStatusSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStatusSampleView.swift; sourceTree = "<group>"; };
 		ED786EF32A5F370800661893 /* ColorsFromHexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsFromHexView.swift; sourceTree = "<group>"; };
+		ED786EFD2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMVVMBaseViewControllerTests.swift; sourceTree = "<group>"; };
+		ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModelMock.swift; sourceTree = "<group>"; };
 		ED99AEAF2A55D4E50013D295 /* SDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED99AEB12A55D4E50013D295 /* SDKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCore.h; sourceTree = "<group>"; };
 		ED99AEB22A55D4E50013D295 /* SDKCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCore.docc; sourceTree = "<group>"; };
 		ED99AEB82A55D4E60013D295 /* SDKCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED99AEBD2A55D4E60013D295 /* SDKCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKCoreTests.swift; sourceTree = "<group>"; };
 		ED99AECB2A55D5000013D295 /* SDKCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED99AECD2A55D5000013D295 /* SDKCloud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCloud.h; sourceTree = "<group>"; };
 		ED99AECE2A55D5000013D295 /* SDKCloud.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCloud.docc; sourceTree = "<group>"; };
@@ -757,6 +759,71 @@
 			path = ColorsFromHex;
 			sourceTree = "<group>";
 		};
+		ED786EF92A5F42BB00661893 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				ED786EFF2A5F4B1B00661893 /* Mocks */,
+				ED786F002A5F4B2100661893 /* Tests */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		ED786EFA2A5F42D100661893 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				ED786EFB2A5F42DB00661893 /* MVVM */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		ED786EFB2A5F42DB00661893 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				ED786EFC2A5F42E300661893 /* ViewController */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		ED786EFC2A5F42E300661893 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ED786EFD2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		ED786EFF2A5F4B1B00661893 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				ED786F012A5F4B4200661893 /* UIKit */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		ED786F002A5F4B2100661893 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED786EFA2A5F42D100661893 /* UIKit */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		ED786F012A5F4B4200661893 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				ED786F022A5F4B4900661893 /* MVVM */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		ED786F022A5F4B4900661893 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		ED99AE972A55D4AC0013D295 = {
 			isa = PBXGroup;
 			children = (
@@ -802,7 +869,7 @@
 		ED99AEBC2A55D4E60013D295 /* SDKCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED99AEBD2A55D4E60013D295 /* SDKCoreTests.swift */,
+				ED786EF92A5F42BB00661893 /* Source */,
 			);
 			path = SDKCoreTests;
 			sourceTree = "<group>";
@@ -1237,6 +1304,7 @@
 					};
 					ED99AEB72A55D4E60013D295 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					ED99AECA2A55D5000013D295 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -1622,7 +1690,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED99AEBE2A55D4E60013D295 /* SDKCoreTests.swift in Sources */,
+				ED786F042A5F4B6600661893 /* EmptyViewModelMock.swift in Sources */,
+				ED786EFE2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2076,6 +2145,7 @@
 			baseConfigurationReference = AC834FE01559BF1CE504FEE5 /* Pods-SDKCore-SDKCoreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2083,6 +2153,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tiagolinhares.SDKCoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2093,6 +2164,7 @@
 			baseConfigurationReference = A20C5CB6B142474525D8724D /* Pods-SDKCore-SDKCoreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
