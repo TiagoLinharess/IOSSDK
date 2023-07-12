@@ -1,5 +1,5 @@
 //
-//  UIImageView+extensions.swift
+//  UIImageView+Core+extensions.swift
 //  SDKCore
 //
 //  Created by Tiago Linhares on 06/07/23.

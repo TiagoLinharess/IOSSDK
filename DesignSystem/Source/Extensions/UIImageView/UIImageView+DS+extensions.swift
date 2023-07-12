@@ -1,5 +1,5 @@
 //
-//  UIImageView+extensions.swift
+//  UIImageView+DS+extensions.swift
 //  DesignSystem
 //
 //  Created by Tiago Linhares on 06/07/23.
