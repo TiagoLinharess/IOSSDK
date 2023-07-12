@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'TiagoLinharesSoftwareDevelopmentKit'
-  spec.version      = '0.1.0'
+  spec.version      = '0.1.3'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/TiagoLinharess/IOSSDK.git'
   spec.authors      = { 'Tiago Linhares' => 'tiagolinharessouza@gmail.com' }
