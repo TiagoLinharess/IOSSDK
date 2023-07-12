@@ -5,6 +5,7 @@
 //  Created by Tiago Linhares on 10/07/23.
 //
 
+import DesignSystem
 import SDKCore
 import SnapKit
 import UIKit
@@ -12,6 +13,13 @@ import UIKit
 final class HomeViewController: UIMVVMBaseViewController<HomeViewModelProtocol> {
     
     // MARK: - UI Elements
+    
+    private lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.text = "These samples are available only in UIKit Framework, if you want to run common samples for UIKit and SwifUI, please run SwiftUISDKSample"
+        label.numberOfLines = .zero
+        return label
+    }()
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
@@ -40,12 +48,18 @@ extension HomeViewController: UIViewCode {
     }
     
     func setupHierarchy() {
+        view.addSubview(titleLabel)
         view.addSubview(tableView)
     }
     
     func setupConstraints() {
+        titleLabel.snp.makeConstraints { make in
+            make.top.leading.trailing.equalTo(view.safeAreaLayoutGuide).inset(CGFloat.small)
+        }
+        
         tableView.snp.makeConstraints { make in
-            make.edges.equalTo(view.safeAreaLayoutGuide)
+            make.top.equalTo(titleLabel.snp.bottom).offset(CGFloat.small)
+            make.horizontalEdges.bottom.equalTo(view.safeAreaLayoutGuide)
         }
     }
 }
