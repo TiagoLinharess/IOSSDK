@@ -50,12 +50,12 @@
 		ED653AE02A5703E10022A06F /* SDKCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AECB2A55D5000013D295 /* SDKCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED653AE32A5703E50022A06F /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED653AE42A5703E50022A06F /* SDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		ED653AEA2A5705850022A06F /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AE92A5705850022A06F /* UIColor+extensions.swift */; };
+		ED653AEA2A5705850022A06F /* UIColor+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AE92A5705850022A06F /* UIColor+DS+extensions.swift */; };
 		ED653AF02A5705DC0022A06F /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED653AF12A5705DC0022A06F /* SDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED653AF72A5706650022A06F /* UIImageView+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AF62A5706650022A06F /* UIImageView+DS+extensions.swift */; };
 		ED653AFF2A571A020022A06F /* ApiProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AFE2A571A020022A06F /* ApiProviderTests.swift */; };
-		ED653B002A571C4D0022A06F /* CGFloat+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB22A56F0840022A06F /* CGFloat+extensions.swift */; };
+		ED653B002A571C4D0022A06F /* CGFloat+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB22A56F0840022A06F /* CGFloat+DS+extensions.swift */; };
 		ED653B022A574CB40022A06F /* ApiWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653B012A574CB40022A06F /* ApiWorkerTests.swift */; };
 		ED653B072A574CF70022A06F /* ApiProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653B062A574CF70022A06F /* ApiProviderMock.swift */; };
 		ED786EA52A5C825100661893 /* ExampleParamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EA42A5C825100661893 /* ExampleParamModel.swift */; };
@@ -74,6 +74,7 @@
 		ED786EE62A5DD2D800661893 /* UIImageFromURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EE52A5DD2D800661893 /* UIImageFromURLViewController.swift */; };
 		ED786EE82A5DD4AD00661893 /* UIImageFromURLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EE72A5DD4AD00661893 /* UIImageFromURLFactory.swift */; };
 		ED786EED2A5DE7FC00661893 /* ViewStatusSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EEC2A5DE7FC00661893 /* ViewStatusSampleView.swift */; };
+		ED786EF42A5F370800661893 /* ColorsFromHexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EF32A5F370800661893 /* ColorsFromHexView.swift */; };
 		ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEB22A55D4E50013D295 /* SDKCore.docc */; };
 		ED99AEB92A55D4E60013D295 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED99AEBE2A55D4E60013D295 /* SDKCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEBD2A55D4E60013D295 /* SDKCoreTests.swift */; };
@@ -244,14 +245,14 @@
 		ED08001D2A56241200CABB93 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		ED08FFEB2A56179200CABB93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED36667E2A5B612D0094964D /* ApiParamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiParamsTests.swift; sourceTree = "<group>"; };
-		ED653AB22A56F0840022A06F /* CGFloat+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+extensions.swift"; sourceTree = "<group>"; };
+		ED653AB22A56F0840022A06F /* CGFloat+DS+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+DS+extensions.swift"; sourceTree = "<group>"; };
 		ED653AB82A56F38E0022A06F /* UIImageView+Core+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Core+extensions.swift"; sourceTree = "<group>"; };
 		ED653ABF2A5703A00022A06F /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED653AC12A5703A00022A06F /* DesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignSystem.h; sourceTree = "<group>"; };
 		ED653AC22A5703A00022A06F /* DesignSystem.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DesignSystem.docc; sourceTree = "<group>"; };
 		ED653AC82A5703A10022A06F /* DesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED653ACD2A5703A10022A06F /* DesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemTests.swift; sourceTree = "<group>"; };
-		ED653AE92A5705850022A06F /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
+		ED653AE92A5705850022A06F /* UIColor+DS+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+DS+extensions.swift"; sourceTree = "<group>"; };
 		ED653AF62A5706650022A06F /* UIImageView+DS+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DS+extensions.swift"; sourceTree = "<group>"; };
 		ED653AFE2A571A020022A06F /* ApiProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderTests.swift; sourceTree = "<group>"; };
 		ED653B012A574CB40022A06F /* ApiWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiWorkerTests.swift; sourceTree = "<group>"; };
@@ -272,6 +273,7 @@
 		ED786EE52A5DD2D800661893 /* UIImageFromURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageFromURLViewController.swift; sourceTree = "<group>"; };
 		ED786EE72A5DD4AD00661893 /* UIImageFromURLFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageFromURLFactory.swift; sourceTree = "<group>"; };
 		ED786EEC2A5DE7FC00661893 /* ViewStatusSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStatusSampleView.swift; sourceTree = "<group>"; };
+		ED786EF32A5F370800661893 /* ColorsFromHexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsFromHexView.swift; sourceTree = "<group>"; };
 		ED99AEAF2A55D4E50013D295 /* SDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED99AEB12A55D4E50013D295 /* SDKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCore.h; sourceTree = "<group>"; };
 		ED99AEB22A55D4E50013D295 /* SDKCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCore.docc; sourceTree = "<group>"; };
@@ -473,7 +475,7 @@
 		ED653AB12A56F05D0022A06F /* CGFloat */ = {
 			isa = PBXGroup;
 			children = (
-				ED653AB22A56F0840022A06F /* CGFloat+extensions.swift */,
+				ED653AB22A56F0840022A06F /* CGFloat+DS+extensions.swift */,
 			);
 			path = CGFloat;
 			sourceTree = "<group>";
@@ -525,7 +527,7 @@
 		ED653AF42A5706340022A06F /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				ED653AE92A5705850022A06F /* UIColor+extensions.swift */,
+				ED653AE92A5705850022A06F /* UIColor+DS+extensions.swift */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -747,6 +749,14 @@
 			path = ViewStatus;
 			sourceTree = "<group>";
 		};
+		ED786EF22A5F36F200661893 /* ColorsFromHex */ = {
+			isa = PBXGroup;
+			children = (
+				ED786EF32A5F370800661893 /* ColorsFromHexView.swift */,
+			);
+			path = ColorsFromHex;
+			sourceTree = "<group>";
+		};
 		ED99AE972A55D4AC0013D295 = {
 			isa = PBXGroup;
 			children = (
@@ -921,6 +931,7 @@
 		ED99AF232A55E7810013D295 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				ED786EF22A5F36F200661893 /* ColorsFromHex */,
 				ED786EE92A5DE78400661893 /* ViewStatus */,
 				ED99AF242A55E7810013D295 /* ApiSample */,
 				ED99AF2A2A55E7810013D295 /* HomeView */,
@@ -1580,8 +1591,8 @@
 			files = (
 				ED653AF72A5706650022A06F /* UIImageView+DS+extensions.swift in Sources */,
 				ED653AC32A5703A00022A06F /* DesignSystem.docc in Sources */,
-				ED653B002A571C4D0022A06F /* CGFloat+extensions.swift in Sources */,
-				ED653AEA2A5705850022A06F /* UIColor+extensions.swift in Sources */,
+				ED653B002A571C4D0022A06F /* CGFloat+DS+extensions.swift in Sources */,
+				ED653AEA2A5705850022A06F /* UIColor+DS+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1659,6 +1670,7 @@
 				ED08FFF82A5617EE00CABB93 /* HomeView.swift in Sources */,
 				ED08FFF32A5617DE00CABB93 /* ApiSamplePresenter.swift in Sources */,
 				ED08FFF02A5617C400CABB93 /* AppStart.swift in Sources */,
+				ED786EF42A5F370800661893 /* ColorsFromHexView.swift in Sources */,
 				ED08FFF42A5617E200CABB93 /* ApiSampleInteractor.swift in Sources */,
 				ED08FFF62A5617E700CABB93 /* ApiSampleFactory.swift in Sources */,
 				ED786EED2A5DE7FC00661893 /* ViewStatusSampleView.swift in Sources */,

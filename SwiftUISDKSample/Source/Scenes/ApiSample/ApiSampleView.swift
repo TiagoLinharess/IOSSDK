@@ -20,6 +20,7 @@ struct ApiSampleView: View {
     
     var body: some View {
         VStack {
+            header
             textField
             searchButton
             searchResult
@@ -31,6 +32,11 @@ struct ApiSampleView: View {
 extension ApiSampleView {
     
     // MARK: - UI Elements
+    
+    @ViewBuilder var header: some View {
+        Text("This sample are available in UIKit or SwiftUI Frameworks, check the docs.")
+        Spacer()
+    }
     
     @ViewBuilder var textField: some View {
         TextField("Enter repo name", text: $appState.textFieldValue)

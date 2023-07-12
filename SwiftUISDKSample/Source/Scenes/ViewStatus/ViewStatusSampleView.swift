@@ -13,7 +13,30 @@ struct ViewStatusSampleView: View {
     @State var viewStatus: ViewStatus = .none
     
     var body: some View {
+        header
         status
+        buttons
+    }
+    
+    @ViewBuilder var header: some View {
+        Text("This sample are available in UIKit or SwiftUI Frameworks, check the docs.")
+        Spacer()
+    }
+    
+    @ViewBuilder var status: some View {
+        switch viewStatus {
+        case .success:
+            Text("current status: success")
+        case .loading:
+            Text("current status: loading")
+        case .none:
+            Text("current status: none")
+        case .error(let error):
+            Text("current status: \(error)")
+        }
+    }
+    
+    @ViewBuilder var buttons: some View {
         Spacer()
         Button("Change to success") {
             viewStatus = .success
@@ -31,18 +54,5 @@ struct ViewStatusSampleView: View {
             viewStatus = .none
         }
         Spacer()
-    }
-    
-    @ViewBuilder var status: some View {
-        switch viewStatus {
-        case .success:
-            Text("current status: success")
-        case .loading:
-            Text("current status: loading")
-        case .none:
-            Text("current status: none")
-        case .error(let error):
-            Text("current status: \(error)")
-        }
     }
 }
