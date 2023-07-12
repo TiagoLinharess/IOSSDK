@@ -1,5 +1,5 @@
 //
-//  Constants.swift
+//  CoreConstants.swift
 //  SDKCore
 //
 //  Created by Tiago Linhares on 11/07/23.
