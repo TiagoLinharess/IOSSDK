@@ -25,6 +25,6 @@ open class UIMVVMBaseViewController<ViewModel>: UIViewController {
     /// Unavailable Init
     @available(*, unavailable)
     required public init?(coder: NSCoder) {
-        fatalError(Constants.UIKit.coderInitMessage)
+        fatalError(CoreConstants.UIKit.coderInitMessage)
     }
 }

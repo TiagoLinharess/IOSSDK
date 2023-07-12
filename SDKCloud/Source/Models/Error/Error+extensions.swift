@@ -15,7 +15,7 @@ extension Error {
     
     /// Creates a defaul ApiError.
     public var defaultApiError: ApiError {
-        .customError(Constants.Error.defaultMessage)
+        .customError(CloudConstants.Error.defaultMessage)
     }
     
     // MARK: - Public Methods

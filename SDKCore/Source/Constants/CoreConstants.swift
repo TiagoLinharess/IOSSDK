@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Constants {
+enum CoreConstants {
     
     enum UIKit {
         

@@ -37,11 +37,11 @@ extension ApiProvider: ApiProviderInput {
         let (data, response) = try await URLSession.shared.data(for: urlRequest)
         
         guard let statusCode = (response as? HTTPURLResponse)?.statusCode else {
-            throw ApiError.customError(Constants.Provider.noResponseFromServer)
+            throw ApiError.customError(CloudConstants.Provider.noResponseFromServer)
         }
         
-        guard statusCode >= Constants.Provider.successStatusCode &&
-              statusCode < Constants.Provider.errorStatusCode
+        guard statusCode >= CloudConstants.Provider.successStatusCode &&
+              statusCode < CloudConstants.Provider.errorStatusCode
         else { throw ApiError.httpError(data, statusCode) }
         
         return data
@@ -57,7 +57,7 @@ private extension ApiProvider {
         guard let urlString = SDKCloudConfiguration.shared.baseUrl,
               let url = URL(string: urlString + request.endpoint)
         else {
-            throw ApiError.customError(Constants.Provider.noAvailableURL)
+            throw ApiError.customError(CloudConstants.Provider.noAvailableURL)
         }
         
         var urlRequest = URLRequest(url: url)

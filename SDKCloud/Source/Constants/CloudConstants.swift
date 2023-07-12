@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: - Constants
 
-enum Constants {
+enum CloudConstants {
     
     // MARK: - Provider
     

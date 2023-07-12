@@ -68,7 +68,7 @@
 		ED786ED62A5D940700661893 /* UIViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786ED52A5D940700661893 /* UIViewCode.swift */; };
 		ED786ED82A5D9B4C00661893 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786ED72A5D9B4C00661893 /* HomeFactory.swift */; };
 		ED786EDD2A5D9F4300661893 /* SampleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EDC2A5D9F4300661893 /* SampleItem.swift */; };
-		ED786EDF2A5DCD9100661893 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EDE2A5DCD9100661893 /* Constants.swift */; };
+		ED786EDF2A5DCD9100661893 /* CoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EDE2A5DCD9100661893 /* CoreConstants.swift */; };
 		ED786EE22A5DCE6E00661893 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EE12A5DCE6E00661893 /* HomeTableViewCell.swift */; };
 		ED786EE42A5DD2AA00661893 /* UIImageFromURLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EE32A5DD2AA00661893 /* UIImageFromURLViewModel.swift */; };
 		ED786EE62A5DD2D800661893 /* UIImageFromURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EE52A5DD2D800661893 /* UIImageFromURLViewController.swift */; };
@@ -81,7 +81,7 @@
 		ED99AECF2A55D5000013D295 /* SDKCloud.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AECE2A55D5000013D295 /* SDKCloud.docc */; };
 		ED99AED52A55D5000013D295 /* SDKCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AECB2A55D5000013D295 /* SDKCloud.framework */; };
 		ED99AEDB2A55D5000013D295 /* SDKCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99AECD2A55D5000013D295 /* SDKCloud.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED99AF152A55E4E30013D295 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF142A55E4E30013D295 /* Constants.swift */; };
+		ED99AF152A55E4E30013D295 /* CloudConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF142A55E4E30013D295 /* CloudConstants.swift */; };
 		ED99AF162A55E5CA0013D295 /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF0B2A55DAF20013D295 /* ApiProvider.swift */; };
 		ED99AF172A55E5CE0013D295 /* ApiWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF0A2A55DAEC0013D295 /* ApiWorker.swift */; };
 		ED99AF182A55E5D40013D295 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF092A55DAD80013D295 /* ApiError.swift */; };
@@ -266,7 +266,7 @@
 		ED786ED52A5D940700661893 /* UIViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewCode.swift; sourceTree = "<group>"; };
 		ED786ED72A5D9B4C00661893 /* HomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
 		ED786EDC2A5D9F4300661893 /* SampleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleItem.swift; sourceTree = "<group>"; };
-		ED786EDE2A5DCD9100661893 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ED786EDE2A5DCD9100661893 /* CoreConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreConstants.swift; sourceTree = "<group>"; };
 		ED786EE12A5DCE6E00661893 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		ED786EE32A5DD2AA00661893 /* UIImageFromURLViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageFromURLViewModel.swift; sourceTree = "<group>"; };
 		ED786EE52A5DD2D800661893 /* UIImageFromURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageFromURLViewController.swift; sourceTree = "<group>"; };
@@ -289,7 +289,7 @@
 		ED99AF0F2A55DB2A0013D295 /* ApiParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiParams.swift; sourceTree = "<group>"; };
 		ED99AF112A55DB820013D295 /* ApiEmptyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEmptyRequest.swift; sourceTree = "<group>"; };
 		ED99AF122A55DD120013D295 /* ApiEmptyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEmptyResponse.swift; sourceTree = "<group>"; };
-		ED99AF142A55E4E30013D295 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ED99AF142A55E4E30013D295 /* CloudConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudConstants.swift; sourceTree = "<group>"; };
 		ED99AF1E2A55E62A0013D295 /* SDKCloudConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKCloudConfiguration.swift; sourceTree = "<group>"; };
 		ED99AF222A55E7810013D295 /* SampleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleItem.swift; sourceTree = "<group>"; };
 		ED99AF252A55E7810013D295 /* ApiSamplePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSamplePresenter.swift; sourceTree = "<group>"; };
@@ -710,7 +710,7 @@
 		ED786ED92A5D9D4F00661893 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				ED786EDE2A5DCD9100661893 /* Constants.swift */,
+				ED786EDE2A5DCD9100661893 /* CoreConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -885,7 +885,7 @@
 		ED99AF132A55DD800013D295 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				ED99AF142A55E4E30013D295 /* Constants.swift */,
+				ED99AF142A55E4E30013D295 /* CloudConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -1601,7 +1601,7 @@
 				ED786ED62A5D940700661893 /* UIViewCode.swift in Sources */,
 				ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */,
 				ED653AB92A56F38E0022A06F /* UIImageView+extensions.swift in Sources */,
-				ED786EDF2A5DCD9100661893 /* Constants.swift in Sources */,
+				ED786EDF2A5DCD9100661893 /* CoreConstants.swift in Sources */,
 				ED786ED32A5D929700661893 /* UIMVVMBaseViewController.swift in Sources */,
 				ED786ECB2A5CCC9300661893 /* UIBaseCoordinator.swift in Sources */,
 			);
@@ -1626,7 +1626,7 @@
 				ED99AF192A55E5D70013D295 /* ApiParams.swift in Sources */,
 				ED99AF172A55E5CE0013D295 /* ApiWorker.swift in Sources */,
 				ED99AF182A55E5D40013D295 /* ApiError.swift in Sources */,
-				ED99AF152A55E4E30013D295 /* Constants.swift in Sources */,
+				ED99AF152A55E4E30013D295 /* CloudConstants.swift in Sources */,
 				ED99AF1B2A55E5DD0013D295 /* ApiRequest.swift in Sources */,
 				ED99AF1A2A55E5DA0013D295 /* ApiEmptyRequest.swift in Sources */,
 				ED08001E2A56241200CABB93 /* HTTPMethod.swift in Sources */,

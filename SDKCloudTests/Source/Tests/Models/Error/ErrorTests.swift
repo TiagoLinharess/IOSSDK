@@ -15,7 +15,7 @@ final class ApiErrorTests: XCTestCase {
         let model = sut.parseError(ApiEmptyResponse.self)
         
         XCTAssertNil(model.response)
-        XCTAssertEqual(model.defaultMessage, Constants.Error.defaultMessage)
+        XCTAssertEqual(model.defaultMessage, CloudConstants.Error.defaultMessage)
     }
     
     func test_valid_error_should_http_response_be_not_nil_and_default_message_be_default() throws {
@@ -24,6 +24,6 @@ final class ApiErrorTests: XCTestCase {
         let model = sut.parseError(ExampleParamModel.self)
         
         XCTAssertNotNil(model.response)
-        XCTAssertEqual(model.defaultMessage, Constants.Error.defaultMessage)
+        XCTAssertEqual(model.defaultMessage, CloudConstants.Error.defaultMessage)
     }
 }
