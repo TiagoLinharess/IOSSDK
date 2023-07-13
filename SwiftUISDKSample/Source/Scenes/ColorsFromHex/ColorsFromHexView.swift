@@ -11,7 +11,7 @@ import SwiftUI
 struct ColorsFromHexView: View {
     var body: some View {
         VStack {
-            Text("This sample are available in UIKit or SwiftUI Frameworks, check the docs.\n\nThis is an a example of colors using hex strings.\n\nAlso the background color are a custom hex color too.")
+            Text("This sample are available in UIKit an SwiftUI Frameworks, check the docs.\n\nThis is an a example of colors using hex strings.\n\nAlso the background color are a custom hex color too.")
                 .foregroundColor(UIColor.lightContent.color)
             Spacer()
             VStack {

@@ -15,6 +15,7 @@ struct SampleItem: Identifiable {
     static var samples: [SampleItem] = [
         .init(view: ApiSampleFactory.configure(), name: "ApiSampleView"),
         .init(view: ViewStatusSampleView(), name: "View Status Sample"),
-        .init(view: ColorsFromHexView(), name: "Hex Colors")
+        .init(view: ColorsFromHexView(), name: "Hex Colors"),
+        .init(view: FontsView(), name: "Custom Fonts")
     ]
 }

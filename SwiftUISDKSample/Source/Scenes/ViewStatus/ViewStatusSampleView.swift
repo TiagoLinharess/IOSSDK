@@ -19,7 +19,7 @@ struct ViewStatusSampleView: View {
     }
     
     @ViewBuilder var header: some View {
-        Text("This sample are available in UIKit or SwiftUI Frameworks, check the docs.")
+        Text("This sample are available in UIKit an SwiftUI Frameworks, check the docs.")
         Spacer()
     }
     

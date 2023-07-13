@@ -34,7 +34,7 @@ extension ApiSampleView {
     // MARK: - UI Elements
     
     @ViewBuilder var header: some View {
-        Text("This sample are available in UIKit or SwiftUI Frameworks, check the docs.\n\n This sample implements VIP Clean architecture.")
+        Text("This sample are available in UIKit an SwiftUI Frameworks, check the docs.\n\n This sample implements VIP Clean architecture.")
         Spacer()
     }
     

@@ -107,6 +107,15 @@
 		EDF874802A60404B004DA638 /* UIMVVMBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EFD2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift */; };
 		EDF874822A60406A004DA638 /* EmptyViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */; };
 		EDF8748A2A604526004DA638 /* UIImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874892A604526004DA638 /* UIImageViewTests.swift */; };
+		EDF8748F2A604A5A004DA638 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF8748C2A604A5A004DA638 /* Montserrat-Bold.ttf */; };
+		EDF874902A604A5A004DA638 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF8748D2A604A5A004DA638 /* Montserrat-Medium.ttf */; };
+		EDF874912A604A5A004DA638 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF8748E2A604A5A004DA638 /* Montserrat-Regular.ttf */; };
+		EDF874952A604A7E004DA638 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF874922A604A7E004DA638 /* RobotoMono-Bold.ttf */; };
+		EDF874962A604A7E004DA638 /* RobotoMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF874932A604A7E004DA638 /* RobotoMono-Medium.ttf */; };
+		EDF874972A604A7E004DA638 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF874942A604A7E004DA638 /* RobotoMono-Regular.ttf */; };
+		EDF8749A2A604C47004DA638 /* UIFont+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874992A604C47004DA638 /* UIFont+DS+extensions.swift */; };
+		EDF8749D2A604F5F004DA638 /* FontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8749C2A604F5F004DA638 /* FontsView.swift */; };
+		EDF874A32A60668B004DA638 /* DesignSystemConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874A22A60668B004DA638 /* DesignSystemConfiguration.swift */; };
 		F59516051BD20C1DA467EF0A /* Pods_UIKitSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C2AD555F53D128A9C9863 /* Pods_UIKitSDKSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -335,6 +344,16 @@
 		EDF8746F2A603A8F004DA638 /* EmptyRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyRouterMock.swift; sourceTree = "<group>"; };
 		EDF874742A603F2E004DA638 /* DSConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSConstants.swift; sourceTree = "<group>"; };
 		EDF874892A604526004DA638 /* UIImageViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewTests.swift; sourceTree = "<group>"; };
+		EDF8748C2A604A5A004DA638 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		EDF8748D2A604A5A004DA638 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		EDF8748E2A604A5A004DA638 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		EDF874922A604A7E004DA638 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
+		EDF874932A604A7E004DA638 /* RobotoMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Medium.ttf"; sourceTree = "<group>"; };
+		EDF874942A604A7E004DA638 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		EDF874982A604AF0004DA638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EDF874992A604C47004DA638 /* UIFont+DS+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DS+extensions.swift"; sourceTree = "<group>"; };
+		EDF8749C2A604F5F004DA638 /* FontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
+		EDF874A22A60668B004DA638 /* DesignSystemConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemConfiguration.swift; sourceTree = "<group>"; };
 		F80FCE5C8FF1FCF2E40652A9 /* Pods_DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -495,7 +514,9 @@
 		ED653AC02A5703A00022A06F /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				EDF874A02A6054D4004DA638 /* Fonts */,
 				ED653AE72A5705660022A06F /* Source */,
+				EDF874982A604AF0004DA638 /* Info.plist */,
 				ED653AC12A5703A00022A06F /* DesignSystem.h */,
 				ED653AC22A5703A00022A06F /* DesignSystem.docc */,
 			);
@@ -513,6 +534,7 @@
 		ED653AE72A5705660022A06F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EDF874A12A606673004DA638 /* Core */,
 				EDF874732A603F1E004DA638 /* Constants */,
 				ED99AF342A55E8A10013D295 /* ViewStatus */,
 				ED786ECC2A5CD39800661893 /* UIKit */,
@@ -526,6 +548,7 @@
 			children = (
 				ED653AB22A56F0840022A06F /* CGFloat+DS+extensions.swift */,
 				ED653AE92A5705850022A06F /* UIColor+DS+extensions.swift */,
+				EDF874992A604C47004DA638 /* UIFont+DS+extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -973,6 +996,7 @@
 		ED99AF232A55E7810013D295 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				EDF8749B2A604E46004DA638 /* FontsView */,
 				ED786EF22A5F36F200661893 /* ColorsFromHex */,
 				ED786EE92A5DE78400661893 /* ViewStatus */,
 				ED99AF242A55E7810013D295 /* ApiSample */,
@@ -1140,6 +1164,35 @@
 				EDF874892A604526004DA638 /* UIImageViewTests.swift */,
 			);
 			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		EDF8749B2A604E46004DA638 /* FontsView */ = {
+			isa = PBXGroup;
+			children = (
+				EDF8749C2A604F5F004DA638 /* FontsView.swift */,
+			);
+			path = FontsView;
+			sourceTree = "<group>";
+		};
+		EDF874A02A6054D4004DA638 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EDF874922A604A7E004DA638 /* RobotoMono-Bold.ttf */,
+				EDF874932A604A7E004DA638 /* RobotoMono-Medium.ttf */,
+				EDF874942A604A7E004DA638 /* RobotoMono-Regular.ttf */,
+				EDF8748C2A604A5A004DA638 /* Montserrat-Bold.ttf */,
+				EDF8748D2A604A5A004DA638 /* Montserrat-Medium.ttf */,
+				EDF8748E2A604A5A004DA638 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EDF874A12A606673004DA638 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EDF874A22A60668B004DA638 /* DesignSystemConfiguration.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1410,6 +1463,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF874912A604A5A004DA638 /* Montserrat-Regular.ttf in Resources */,
+				EDF874902A604A5A004DA638 /* Montserrat-Medium.ttf in Resources */,
+				EDF8748F2A604A5A004DA638 /* Montserrat-Bold.ttf in Resources */,
+				EDF874952A604A7E004DA638 /* RobotoMono-Bold.ttf in Resources */,
+				EDF874962A604A7E004DA638 /* RobotoMono-Medium.ttf in Resources */,
+				EDF874972A604A7E004DA638 /* RobotoMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1724,7 +1783,9 @@
 				EDF8747C2A603FA2004DA638 /* UIViewCode.swift in Sources */,
 				EDF874762A603F86004DA638 /* UIVIPRouter.swift in Sources */,
 				ED653AC32A5703A00022A06F /* DesignSystem.docc in Sources */,
+				EDF874A32A60668B004DA638 /* DesignSystemConfiguration.swift in Sources */,
 				ED653B002A571C4D0022A06F /* CGFloat+DS+extensions.swift in Sources */,
+				EDF8749A2A604C47004DA638 /* UIFont+DS+extensions.swift in Sources */,
 				EDF874782A603F90004DA638 /* UIVIPInteractor.swift in Sources */,
 				EDF8747B2A603F9C004DA638 /* UIBaseCoordinator.swift in Sources */,
 				ED653AEA2A5705850022A06F /* UIColor+DS+extensions.swift in Sources */,
@@ -1803,6 +1864,7 @@
 				ED08FFF92A5617F200CABB93 /* ApiSampleWorker.swift in Sources */,
 				ED08FFF22A5617DA00CABB93 /* SampleItem.swift in Sources */,
 				ED08FFF72A5617EA00CABB93 /* ApiSampleView.swift in Sources */,
+				EDF8749D2A604F5F004DA638 /* FontsView.swift in Sources */,
 				ED08FFF52A5617E400CABB93 /* ApiSampleState.swift in Sources */,
 				ED08FFF82A5617EE00CABB93 /* HomeView.swift in Sources */,
 				ED08FFF32A5617DE00CABB93 /* ApiSamplePresenter.swift in Sources */,
@@ -1940,6 +2002,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignSystem/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1973,6 +2036,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DesignSystem/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
