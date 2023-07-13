@@ -116,6 +116,7 @@
 		EDF8749A2A604C47004DA638 /* UIFont+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874992A604C47004DA638 /* UIFont+DS+extensions.swift */; };
 		EDF8749D2A604F5F004DA638 /* FontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8749C2A604F5F004DA638 /* FontsView.swift */; };
 		EDF874A32A60668B004DA638 /* DesignSystemConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874A22A60668B004DA638 /* DesignSystemConfiguration.swift */; };
+		EDF874A62A606AE2004DA638 /* FontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874A52A606AE2004DA638 /* FontsTests.swift */; };
 		F59516051BD20C1DA467EF0A /* Pods_UIKitSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C2AD555F53D128A9C9863 /* Pods_UIKitSDKSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -354,6 +355,7 @@
 		EDF874992A604C47004DA638 /* UIFont+DS+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DS+extensions.swift"; sourceTree = "<group>"; };
 		EDF8749C2A604F5F004DA638 /* FontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
 		EDF874A22A60668B004DA638 /* DesignSystemConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemConfiguration.swift; sourceTree = "<group>"; };
+		EDF874A52A606AE2004DA638 /* FontsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTests.swift; sourceTree = "<group>"; };
 		F80FCE5C8FF1FCF2E40652A9 /* Pods_DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -800,6 +802,7 @@
 		ED786F002A5F4B2100661893 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				EDF874A42A606AC8004DA638 /* Fonts */,
 				ED786EFA2A5F42D100661893 /* UIKit */,
 			);
 			path = Tests;
@@ -1193,6 +1196,14 @@
 				EDF874A22A60668B004DA638 /* DesignSystemConfiguration.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		EDF874A42A606AC8004DA638 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EDF874A52A606AE2004DA638 /* FontsTests.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1797,6 +1808,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF874A62A606AE2004DA638 /* FontsTests.swift in Sources */,
 				EDF8747E2A60403C004DA638 /* EmptyRouterMock.swift in Sources */,
 				EDF8747D2A604038004DA638 /* EmptyInteractorMock.swift in Sources */,
 				EDF874822A60406A004DA638 /* EmptyViewModelMock.swift in Sources */,
