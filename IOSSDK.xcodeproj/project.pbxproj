@@ -490,14 +490,6 @@
 			path = Params;
 			sourceTree = "<group>";
 		};
-		ED653AB12A56F05D0022A06F /* CGFloat */ = {
-			isa = PBXGroup;
-			children = (
-				ED653AB22A56F0840022A06F /* CGFloat+DS+extensions.swift */,
-			);
-			path = CGFloat;
-			sourceTree = "<group>";
-		};
 		ED653AC02A5703A00022A06F /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
@@ -530,18 +522,10 @@
 		ED653AE82A5705720022A06F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				ED653AB12A56F05D0022A06F /* CGFloat */,
-				ED653AF42A5706340022A06F /* UIColor */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		ED653AF42A5706340022A06F /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
+				ED653AB22A56F0840022A06F /* CGFloat+DS+extensions.swift */,
 				ED653AE92A5705850022A06F /* UIColor+DS+extensions.swift */,
 			);
-			path = UIColor;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		ED653AFA2A5719600022A06F /* Source */ = {
