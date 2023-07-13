@@ -106,6 +106,7 @@
 		EDF8747F2A604041004DA638 /* UIVIPBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8746B2A60385E004DA638 /* UIVIPBaseViewControllerTests.swift */; };
 		EDF874802A60404B004DA638 /* UIMVVMBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EFD2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift */; };
 		EDF874822A60406A004DA638 /* EmptyViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */; };
+		EDF8748A2A604526004DA638 /* UIImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874892A604526004DA638 /* UIImageViewTests.swift */; };
 		F59516051BD20C1DA467EF0A /* Pods_UIKitSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C2AD555F53D128A9C9863 /* Pods_UIKitSDKSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -333,6 +334,7 @@
 		EDF8746D2A603A70004DA638 /* EmptyInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyInteractorMock.swift; sourceTree = "<group>"; };
 		EDF8746F2A603A8F004DA638 /* EmptyRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyRouterMock.swift; sourceTree = "<group>"; };
 		EDF874742A603F2E004DA638 /* DSConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSConstants.swift; sourceTree = "<group>"; };
+		EDF874892A604526004DA638 /* UIImageViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewTests.swift; sourceTree = "<group>"; };
 		F80FCE5C8FF1FCF2E40652A9 /* Pods_DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -842,6 +844,7 @@
 		ED99AEBC2A55D4E60013D295 /* SDKCoreTests */ = {
 			isa = PBXGroup;
 			children = (
+				EDF874832A604297004DA638 /* Source */,
 			);
 			path = SDKCoreTests;
 			sourceTree = "<group>";
@@ -1121,6 +1124,22 @@
 				EDF874742A603F2E004DA638 /* DSConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		EDF874832A604297004DA638 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EDF874842A6042AF004DA638 /* UIImageView */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EDF874842A6042AF004DA638 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EDF874892A604526004DA638 /* UIImageViewTests.swift */,
+			);
+			path = UIImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1740,6 +1759,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF8748A2A604526004DA638 /* UIImageViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
