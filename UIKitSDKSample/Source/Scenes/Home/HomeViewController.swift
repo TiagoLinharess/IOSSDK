@@ -16,7 +16,7 @@ final class HomeViewController: UIMVVMBaseViewController<HomeViewModelProtocol> 
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "These samples are available only in UIKit Framework, if you want to run common samples for UIKit and SwifUI, please run SwiftUISDKSample"
+        label.text = "These samples are available only in UIKit Framework, if you want to run common samples for UIKit and SwifUI, please run SwiftUISDKSample.\n\nThis Scene uses MVVMC Architecture.\n\nUIKit Samples:"
         label.numberOfLines = .zero
         return label
     }()

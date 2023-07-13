@@ -13,5 +13,6 @@ struct SampleItem {
     
     static var samples: [SampleItem] = [
         .init(controller: UIImageFromURLFactory.configure(), name: "UIImageView from url"),
+        .init(controller: VIPSceneFactory.configure(), name: "VIP Clean Architecture Scene")
     ]
 }

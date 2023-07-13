@@ -16,7 +16,7 @@ open class UIMVVMBaseViewController<ViewModel>: UIViewController {
     
     // MARK: - Init
     
-    /// ViewModel Init
+    /// View Code Init
     required public init(viewModel: ViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
