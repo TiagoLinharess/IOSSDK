@@ -9,6 +9,14 @@ import UIKit
 
 extension UIImageView {
     
+    // MARK: - Corner Radius
+
+    /// Make image rounded
+    public func cornerRadius(radius: CGFloat) {
+        self.clipsToBounds = true
+        self.layer.cornerRadius = radius
+    }
+    
     // MARK: - URL Image View
     
     /// Transforms URL in to UIImageView

@@ -40,7 +40,6 @@
 		ED653AB92A56F38E0022A06F /* UIImageView+Core+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB82A56F38E0022A06F /* UIImageView+Core+extensions.swift */; };
 		ED653AC32A5703A00022A06F /* DesignSystem.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED653AC22A5703A00022A06F /* DesignSystem.docc */; };
 		ED653AC92A5703A10022A06F /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED653ABF2A5703A00022A06F /* DesignSystem.framework */; };
-		ED653ACE2A5703A10022A06F /* DesignSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653ACD2A5703A10022A06F /* DesignSystemTests.swift */; };
 		ED653ACF2A5703A10022A06F /* DesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = ED653AC12A5703A00022A06F /* DesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED653AD62A5703D60022A06F /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED653ABF2A5703A00022A06F /* DesignSystem.framework */; };
 		ED653AD72A5703D60022A06F /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED653ABF2A5703A00022A06F /* DesignSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -53,7 +52,6 @@
 		ED653AEA2A5705850022A06F /* UIColor+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AE92A5705850022A06F /* UIColor+DS+extensions.swift */; };
 		ED653AF02A5705DC0022A06F /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED653AF12A5705DC0022A06F /* SDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		ED653AF72A5706650022A06F /* UIImageView+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AF62A5706650022A06F /* UIImageView+DS+extensions.swift */; };
 		ED653AFF2A571A020022A06F /* ApiProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AFE2A571A020022A06F /* ApiProviderTests.swift */; };
 		ED653B002A571C4D0022A06F /* CGFloat+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB22A56F0840022A06F /* CGFloat+DS+extensions.swift */; };
 		ED653B022A574CB40022A06F /* ApiWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653B012A574CB40022A06F /* ApiWorkerTests.swift */; };
@@ -63,9 +61,6 @@
 		ED786EC32A5CCB6400661893 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EC22A5CCB6400661893 /* HomeViewController.swift */; };
 		ED786EC52A5CCB9500661893 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EC42A5CCB9500661893 /* HomeViewModel.swift */; };
 		ED786EC72A5CCC0500661893 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EC62A5CCC0500661893 /* HomeCoordinator.swift */; };
-		ED786ECB2A5CCC9300661893 /* UIBaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786ECA2A5CCC9300661893 /* UIBaseCoordinator.swift */; };
-		ED786ED32A5D929700661893 /* UIMVVMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786ED22A5D929700661893 /* UIMVVMBaseViewController.swift */; };
-		ED786ED62A5D940700661893 /* UIViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786ED52A5D940700661893 /* UIViewCode.swift */; };
 		ED786ED82A5D9B4C00661893 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786ED72A5D9B4C00661893 /* HomeFactory.swift */; };
 		ED786EDD2A5D9F4300661893 /* SampleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EDC2A5D9F4300661893 /* SampleItem.swift */; };
 		ED786EDF2A5DCD9100661893 /* CoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EDE2A5DCD9100661893 /* CoreConstants.swift */; };
@@ -75,8 +70,6 @@
 		ED786EE82A5DD4AD00661893 /* UIImageFromURLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EE72A5DD4AD00661893 /* UIImageFromURLFactory.swift */; };
 		ED786EED2A5DE7FC00661893 /* ViewStatusSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EEC2A5DE7FC00661893 /* ViewStatusSampleView.swift */; };
 		ED786EF42A5F370800661893 /* ColorsFromHexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EF32A5F370800661893 /* ColorsFromHexView.swift */; };
-		ED786EFE2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EFD2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift */; };
-		ED786F042A5F4B6600661893 /* EmptyViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */; };
 		ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEB22A55D4E50013D295 /* SDKCore.docc */; };
 		ED99AEB92A55D4E60013D295 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED99AEBF2A55D4E60013D295 /* SDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99AEB12A55D4E50013D295 /* SDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,19 +87,25 @@
 		ED99AF1F2A55E6350013D295 /* SDKCloudConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF1E2A55E62A0013D295 /* SDKCloudConfiguration.swift */; };
 		ED99AF362A55E8AC0013D295 /* ViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF352A55E8A10013D295 /* ViewStatus.swift */; };
 		ED99AF452A560A960013D295 /* Error+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF432A5602050013D295 /* Error+extensions.swift */; };
-		EDF874502A5F525B004DA638 /* UIVIPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8744F2A5F525B004DA638 /* UIVIPBaseViewController.swift */; };
-		EDF874532A5F53A9004DA638 /* UIVIPInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874522A5F53A9004DA638 /* UIVIPInteractor.swift */; };
-		EDF874562A5F546B004DA638 /* UIVIPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874552A5F546B004DA638 /* UIVIPPresenter.swift */; };
-		EDF874592A5F5588004DA638 /* UIVIPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874582A5F5588004DA638 /* UIVIPRouter.swift */; };
 		EDF8745C2A6027B7004DA638 /* VIPSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8745B2A6027B7004DA638 /* VIPSceneView.swift */; };
 		EDF8745E2A602949004DA638 /* VIPSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8745D2A602949004DA638 /* VIPSceneRouter.swift */; };
 		EDF874612A6029FB004DA638 /* VIPSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874602A6029FB004DA638 /* VIPSceneViewController.swift */; };
 		EDF874632A602A76004DA638 /* VIPSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874622A602A76004DA638 /* VIPSceneInteractor.swift */; };
 		EDF874652A602ACD004DA638 /* VIPScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874642A602ACD004DA638 /* VIPScenePresenter.swift */; };
 		EDF874672A602BD5004DA638 /* VIPSceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874662A602BD5004DA638 /* VIPSceneFactory.swift */; };
-		EDF8746C2A60385E004DA638 /* UIVIPBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8746B2A60385E004DA638 /* UIVIPBaseViewControllerTests.swift */; };
-		EDF8746E2A603A70004DA638 /* EmptyInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8746D2A603A70004DA638 /* EmptyInteractorMock.swift */; };
-		EDF874702A603A8F004DA638 /* EmptyRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8746F2A603A8F004DA638 /* EmptyRouterMock.swift */; };
+		EDF874752A603F2E004DA638 /* DSConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874742A603F2E004DA638 /* DSConstants.swift */; };
+		EDF874762A603F86004DA638 /* UIVIPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874582A5F5588004DA638 /* UIVIPRouter.swift */; };
+		EDF874772A603F8A004DA638 /* UIVIPPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874552A5F546B004DA638 /* UIVIPPresenter.swift */; };
+		EDF874782A603F90004DA638 /* UIVIPInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874522A5F53A9004DA638 /* UIVIPInteractor.swift */; };
+		EDF874792A603F95004DA638 /* UIVIPBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8744F2A5F525B004DA638 /* UIVIPBaseViewController.swift */; };
+		EDF8747A2A603F99004DA638 /* UIMVVMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786ED22A5D929700661893 /* UIMVVMBaseViewController.swift */; };
+		EDF8747B2A603F9C004DA638 /* UIBaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786ECA2A5CCC9300661893 /* UIBaseCoordinator.swift */; };
+		EDF8747C2A603FA2004DA638 /* UIViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786ED52A5D940700661893 /* UIViewCode.swift */; };
+		EDF8747D2A604038004DA638 /* EmptyInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8746D2A603A70004DA638 /* EmptyInteractorMock.swift */; };
+		EDF8747E2A60403C004DA638 /* EmptyRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8746F2A603A8F004DA638 /* EmptyRouterMock.swift */; };
+		EDF8747F2A604041004DA638 /* UIVIPBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8746B2A60385E004DA638 /* UIVIPBaseViewControllerTests.swift */; };
+		EDF874802A60404B004DA638 /* UIMVVMBaseViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EFD2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift */; };
+		EDF874822A60406A004DA638 /* EmptyViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */; };
 		F59516051BD20C1DA467EF0A /* Pods_UIKitSDKSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12C2AD555F53D128A9C9863 /* Pods_UIKitSDKSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -265,9 +264,7 @@
 		ED653AC12A5703A00022A06F /* DesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignSystem.h; sourceTree = "<group>"; };
 		ED653AC22A5703A00022A06F /* DesignSystem.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DesignSystem.docc; sourceTree = "<group>"; };
 		ED653AC82A5703A10022A06F /* DesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED653ACD2A5703A10022A06F /* DesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemTests.swift; sourceTree = "<group>"; };
 		ED653AE92A5705850022A06F /* UIColor+DS+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+DS+extensions.swift"; sourceTree = "<group>"; };
-		ED653AF62A5706650022A06F /* UIImageView+DS+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DS+extensions.swift"; sourceTree = "<group>"; };
 		ED653AFE2A571A020022A06F /* ApiProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderTests.swift; sourceTree = "<group>"; };
 		ED653B012A574CB40022A06F /* ApiWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiWorkerTests.swift; sourceTree = "<group>"; };
 		ED653B062A574CF70022A06F /* ApiProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProviderMock.swift; sourceTree = "<group>"; };
@@ -335,6 +332,7 @@
 		EDF8746B2A60385E004DA638 /* UIVIPBaseViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPBaseViewControllerTests.swift; sourceTree = "<group>"; };
 		EDF8746D2A603A70004DA638 /* EmptyInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyInteractorMock.swift; sourceTree = "<group>"; };
 		EDF8746F2A603A8F004DA638 /* EmptyRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyRouterMock.swift; sourceTree = "<group>"; };
+		EDF874742A603F2E004DA638 /* DSConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSConstants.swift; sourceTree = "<group>"; };
 		F80FCE5C8FF1FCF2E40652A9 /* Pods_DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -492,28 +490,12 @@
 			path = Params;
 			sourceTree = "<group>";
 		};
-		ED653AB02A56F0550022A06F /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				ED653AB72A56F34D0022A06F /* UIImageView */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		ED653AB12A56F05D0022A06F /* CGFloat */ = {
 			isa = PBXGroup;
 			children = (
 				ED653AB22A56F0840022A06F /* CGFloat+DS+extensions.swift */,
 			);
 			path = CGFloat;
-			sourceTree = "<group>";
-		};
-		ED653AB72A56F34D0022A06F /* UIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				ED653AB82A56F38E0022A06F /* UIImageView+Core+extensions.swift */,
-			);
-			path = UIImageView;
 			sourceTree = "<group>";
 		};
 		ED653AC02A5703A00022A06F /* DesignSystem */ = {
@@ -529,7 +511,7 @@
 		ED653ACC2A5703A10022A06F /* DesignSystemTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED653ACD2A5703A10022A06F /* DesignSystemTests.swift */,
+				ED786EF92A5F42BB00661893 /* Source */,
 			);
 			path = DesignSystemTests;
 			sourceTree = "<group>";
@@ -537,6 +519,9 @@
 		ED653AE72A5705660022A06F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EDF874732A603F1E004DA638 /* Constants */,
+				ED99AF342A55E8A10013D295 /* ViewStatus */,
+				ED786ECC2A5CD39800661893 /* UIKit */,
 				ED653AE82A5705720022A06F /* Extensions */,
 			);
 			path = Source;
@@ -547,7 +532,6 @@
 			children = (
 				ED653AB12A56F05D0022A06F /* CGFloat */,
 				ED653AF42A5706340022A06F /* UIColor */,
-				ED653AF52A5706530022A06F /* UIImageView */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -558,14 +542,6 @@
 				ED653AE92A5705850022A06F /* UIColor+DS+extensions.swift */,
 			);
 			path = UIColor;
-			sourceTree = "<group>";
-		};
-		ED653AF52A5706530022A06F /* UIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				ED653AF62A5706650022A06F /* UIImageView+DS+extensions.swift */,
-			);
-			path = UIImageView;
 			sourceTree = "<group>";
 		};
 		ED653AFA2A5719600022A06F /* Source */ = {
@@ -695,19 +671,10 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		ED786EC92A5CCC3C00661893 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				ED786ECA2A5CCC9300661893 /* UIBaseCoordinator.swift */,
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
 		ED786ECC2A5CD39800661893 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
 				ED786ED42A5D93EF00661893 /* ViewCode */,
-				ED653AB02A56F0550022A06F /* Extensions */,
 				ED786ED02A5D925600661893 /* MVVM */,
 				EDF8744D2A5F50D6004DA638 /* VIP */,
 			);
@@ -717,18 +684,10 @@
 		ED786ED02A5D925600661893 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				ED786EC92A5CCC3C00661893 /* Coordinator */,
-				ED786ED12A5D926100661893 /* ViewController */,
-			);
-			path = MVVM;
-			sourceTree = "<group>";
-		};
-		ED786ED12A5D926100661893 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
+				ED786ECA2A5CCC9300661893 /* UIBaseCoordinator.swift */,
 				ED786ED22A5D929700661893 /* UIMVVMBaseViewController.swift */,
 			);
-			path = ViewController;
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 		ED786ED42A5D93EF00661893 /* ViewCode */ = {
@@ -899,7 +858,6 @@
 		ED99AEBC2A55D4E60013D295 /* SDKCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED786EF92A5F42BB00661893 /* Source */,
 			);
 			path = SDKCoreTests;
 			sourceTree = "<group>";
@@ -1059,9 +1017,8 @@
 		ED99AF332A55E82E0013D295 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EDF874722A603CF7004DA638 /* Extensions */,
 				ED786ED92A5D9D4F00661893 /* Constants */,
-				ED786ECC2A5CD39800661893 /* UIKit */,
-				ED99AF342A55E8A10013D295 /* ViewStatus */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -1120,44 +1077,12 @@
 		EDF8744D2A5F50D6004DA638 /* VIP */ = {
 			isa = PBXGroup;
 			children = (
-				EDF874572A5F557A004DA638 /* Router */,
-				EDF874542A5F5458004DA638 /* Presenter */,
-				EDF874512A5F5367004DA638 /* Interactor */,
-				EDF8744E2A5F523C004DA638 /* ViewController */,
-			);
-			path = VIP;
-			sourceTree = "<group>";
-		};
-		EDF8744E2A5F523C004DA638 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
 				EDF8744F2A5F525B004DA638 /* UIVIPBaseViewController.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		EDF874512A5F5367004DA638 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
 				EDF874522A5F53A9004DA638 /* UIVIPInteractor.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		EDF874542A5F5458004DA638 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
 				EDF874552A5F546B004DA638 /* UIVIPPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		EDF874572A5F557A004DA638 /* Router */ = {
-			isa = PBXGroup;
-			children = (
 				EDF874582A5F5588004DA638 /* UIVIPRouter.swift */,
 			);
-			path = Router;
+			path = VIP;
 			sourceTree = "<group>";
 		};
 		EDF8745A2A5F5646004DA638 /* VIPScene */ = {
@@ -1196,6 +1121,22 @@
 				EDF8746F2A603A8F004DA638 /* EmptyRouterMock.swift */,
 			);
 			path = VIP;
+			sourceTree = "<group>";
+		};
+		EDF874722A603CF7004DA638 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED653AB82A56F38E0022A06F /* UIImageView+Core+extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EDF874732A603F1E004DA638 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EDF874742A603F2E004DA638 /* DSConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1774,10 +1715,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED653AF72A5706650022A06F /* UIImageView+DS+extensions.swift in Sources */,
+				EDF874772A603F8A004DA638 /* UIVIPPresenter.swift in Sources */,
+				EDF874752A603F2E004DA638 /* DSConstants.swift in Sources */,
+				EDF8747A2A603F99004DA638 /* UIMVVMBaseViewController.swift in Sources */,
+				EDF8747C2A603FA2004DA638 /* UIViewCode.swift in Sources */,
+				EDF874762A603F86004DA638 /* UIVIPRouter.swift in Sources */,
 				ED653AC32A5703A00022A06F /* DesignSystem.docc in Sources */,
 				ED653B002A571C4D0022A06F /* CGFloat+DS+extensions.swift in Sources */,
+				EDF874782A603F90004DA638 /* UIVIPInteractor.swift in Sources */,
+				EDF8747B2A603F9C004DA638 /* UIBaseCoordinator.swift in Sources */,
 				ED653AEA2A5705850022A06F /* UIColor+DS+extensions.swift in Sources */,
+				EDF874792A603F95004DA638 /* UIVIPBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1785,7 +1733,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED653ACE2A5703A10022A06F /* DesignSystemTests.swift in Sources */,
+				EDF8747E2A60403C004DA638 /* EmptyRouterMock.swift in Sources */,
+				EDF8747D2A604038004DA638 /* EmptyInteractorMock.swift in Sources */,
+				EDF874822A60406A004DA638 /* EmptyViewModelMock.swift in Sources */,
+				EDF8747F2A604041004DA638 /* UIVIPBaseViewControllerTests.swift in Sources */,
+				EDF874802A60404B004DA638 /* UIMVVMBaseViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1794,16 +1746,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED99AF362A55E8AC0013D295 /* ViewStatus.swift in Sources */,
-				ED786ED62A5D940700661893 /* UIViewCode.swift in Sources */,
-				EDF874592A5F5588004DA638 /* UIVIPRouter.swift in Sources */,
 				ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */,
 				ED653AB92A56F38E0022A06F /* UIImageView+Core+extensions.swift in Sources */,
 				ED786EDF2A5DCD9100661893 /* CoreConstants.swift in Sources */,
-				ED786ED32A5D929700661893 /* UIMVVMBaseViewController.swift in Sources */,
-				ED786ECB2A5CCC9300661893 /* UIBaseCoordinator.swift in Sources */,
-				EDF874532A5F53A9004DA638 /* UIVIPInteractor.swift in Sources */,
-				EDF874562A5F546B004DA638 /* UIVIPPresenter.swift in Sources */,
-				EDF874502A5F525B004DA638 /* UIVIPBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1811,11 +1756,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF874702A603A8F004DA638 /* EmptyRouterMock.swift in Sources */,
-				EDF8746E2A603A70004DA638 /* EmptyInteractorMock.swift in Sources */,
-				ED786F042A5F4B6600661893 /* EmptyViewModelMock.swift in Sources */,
-				ED786EFE2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift in Sources */,
-				EDF8746C2A60385E004DA638 /* UIVIPBaseViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

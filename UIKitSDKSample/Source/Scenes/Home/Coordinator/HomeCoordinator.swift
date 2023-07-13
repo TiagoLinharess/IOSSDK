@@ -5,7 +5,7 @@
 //  Created by Tiago Linhares on 10/07/23.
 //
 
-import SDKCore
+import DesignSystem
 import UIKit
 
 final class HomeCoordinator: UIBaseCoordinator {

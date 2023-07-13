@@ -5,8 +5,8 @@
 //  Created by Tiago Linhares on 13/07/23.
 //
 
+import DesignSystem
 import Foundation
-import SDKCore
 
 protocol VIPSceneRouterInput { }
 

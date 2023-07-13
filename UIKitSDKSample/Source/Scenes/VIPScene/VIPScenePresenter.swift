@@ -5,7 +5,7 @@
 //  Created by Tiago Linhares on 13/07/23.
 //
 
-import SDKCore
+import DesignSystem
 import Foundation
 
 protocol VIPScenePresenterInput { }

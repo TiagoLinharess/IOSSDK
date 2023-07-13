@@ -7,7 +7,7 @@
 
 import SnapshotTesting
 import XCTest
-@testable import SDKCore
+@testable import DesignSystem
 
 final class UIMVVMBaseViewControllerTests: XCTestCase {
     
