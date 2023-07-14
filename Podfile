@@ -3,7 +3,7 @@
  platform :ios, '16.4'
 
 def pods_for_tests
-  pod 'SnapshotTesting'
+  pod 'SnapshotTesting', '~> 1.9.0'
 end
 
 target 'SDKCloud' do
