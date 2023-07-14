@@ -536,8 +536,8 @@
 			children = (
 				EDF874A12A606673004DA638 /* Core */,
 				EDF874732A603F1E004DA638 /* Constants */,
-				ED99AF342A55E8A10013D295 /* ViewStatus */,
 				ED653AE82A5705720022A06F /* Extensions */,
+				ED99AF342A55E8A10013D295 /* ViewStatus */,
 				ED786ECC2A5CD39800661893 /* UIKit */,
 			);
 			path = Source;
