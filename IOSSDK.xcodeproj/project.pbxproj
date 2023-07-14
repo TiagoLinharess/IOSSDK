@@ -351,7 +351,7 @@
 		EDF874922A604A7E004DA638 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
 		EDF874932A604A7E004DA638 /* RobotoMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Medium.ttf"; sourceTree = "<group>"; };
 		EDF874942A604A7E004DA638 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
-		EDF874982A604AF0004DA638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EDF874982A604AF0004DA638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF874992A604C47004DA638 /* UIFont+DS+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DS+extensions.swift"; sourceTree = "<group>"; };
 		EDF8749C2A604F5F004DA638 /* FontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
 		EDF874A22A60668B004DA638 /* DesignSystemConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemConfiguration.swift; sourceTree = "<group>"; };
@@ -516,11 +516,9 @@
 		ED653AC02A5703A00022A06F /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				EDF874A02A6054D4004DA638 /* Fonts */,
+				EDF874A72A617FD9004DA638 /* Resources */,
 				ED653AE72A5705660022A06F /* Source */,
 				EDF874982A604AF0004DA638 /* Info.plist */,
-				ED653AC12A5703A00022A06F /* DesignSystem.h */,
-				ED653AC22A5703A00022A06F /* DesignSystem.docc */,
 			);
 			path = DesignSystem;
 			sourceTree = "<group>";
@@ -860,9 +858,8 @@
 		ED99AEB02A55D4E50013D295 /* SDKCore */ = {
 			isa = PBXGroup;
 			children = (
+				EDF874A82A61803D004DA638 /* Resources */,
 				ED99AF332A55E82E0013D295 /* Source */,
-				ED99AEB12A55D4E50013D295 /* SDKCore.h */,
-				ED99AEB22A55D4E50013D295 /* SDKCore.docc */,
 			);
 			path = SDKCore;
 			sourceTree = "<group>";
@@ -878,9 +875,8 @@
 		ED99AECC2A55D5000013D295 /* SDKCloud */ = {
 			isa = PBXGroup;
 			children = (
+				EDF874A92A61805B004DA638 /* Resources */,
 				ED99AEFD2A55D9C50013D295 /* Source */,
-				ED99AECD2A55D5000013D295 /* SDKCloud.h */,
-				ED99AECE2A55D5000013D295 /* SDKCloud.docc */,
 			);
 			path = SDKCloud;
 			sourceTree = "<group>";
@@ -1204,6 +1200,34 @@
 				EDF874A52A606AE2004DA638 /* FontsTests.swift */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EDF874A72A617FD9004DA638 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED653AC22A5703A00022A06F /* DesignSystem.docc */,
+				ED653AC12A5703A00022A06F /* DesignSystem.h */,
+				EDF874A02A6054D4004DA638 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EDF874A82A61803D004DA638 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED99AEB22A55D4E50013D295 /* SDKCore.docc */,
+				ED99AEB12A55D4E50013D295 /* SDKCore.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EDF874A92A61805B004DA638 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED99AECE2A55D5000013D295 /* SDKCloud.docc */,
+				ED99AECD2A55D5000013D295 /* SDKCloud.h */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
