@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/TiagoLinharess/IOSSDK.git', :tag => spec.version }
   spec.platforms    = { :ios => "16.4" }
   spec.swift_version = '5.8.1'
-  spec.source_files = 'SDKCore/**/*.swift', 'SDKCloud/**/*.swift', 'DesignSystem/**/*.{swift,ttf}',
+  spec.source_files = 'SDKCore/**/*.swift', 'SDKCloud/**/*.swift', 'DesignSystem/**/*.swift',
   spec.framework    = 'SystemConfiguration'
   spec.dependency 'SnapshotTesting', '~> 1.9.0'
   spec.dependency 'SnapKit', '~> 5.6.0'
