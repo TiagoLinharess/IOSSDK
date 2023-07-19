@@ -23,15 +23,9 @@
 
 ### The three modules:
 
-#### . [SharpnezCloud](https://github.com/TiagoLinharess/IOSSDK/blob/main/SDKCloud/Resources/SDKCloud.docc/SDKCloud.md)
-
-#### . [SharpnezCore](https://github.com/TiagoLinharess/IOSSDK/blob/main/SDKCore/Resources/SDKCore.docc/SDKCore.md)
-
-[![Build Status](https://api.travis-ci.com/TiagoLinharess/SharpnezCore.svg)](https://api.travis-ci.com/TiagoLinharess/SharpnezCore.svg)
-[![Platform](https://img.shields.io/cocoapods/p/SharpnezCore.svg?style=flat)](https://github.com/TiagoLinharess/IOSSDK)
-[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SharpnezCore.svg)](https://cocoapods.org/pods/SharpnezCore)
-
-#### . [SharpnezDesignSystem](https://github.com/TiagoLinharess/IOSSDK/blob/main/DesignSystem/Resources/DesignSystem.docc/DesignSystem.md)
+#### - [SharpnezCloud](https://github.com/TiagoLinharess/IOSSDK/blob/main/SDKCloud/Resources/SDKCloud.docc/SDKCloud.md)
+#### - [SharpnezCore](https://github.com/TiagoLinharess/IOSSDK/blob/main/SDKCore/Resources/SDKCore.docc/SDKCore.md)
+#### - [SharpnezDesignSystem](https://github.com/TiagoLinharess/IOSSDK/blob/main/DesignSystem/Resources/DesignSystem.docc/DesignSystem.md)
 
 [![Build Status](https://api.travis-ci.com/TiagoLinharess/SharpnezDesignSystem.svg)](https://api.travis-ci.com/TiagoLinharess/SharpnezDesignSystem.svg)
 [![Platform](https://img.shields.io/cocoapods/p/SharpnezDesignSystem.svg?style=flat)](https://github.com/TiagoLinharess/IOSSDK)
