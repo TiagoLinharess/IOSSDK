@@ -33,7 +33,7 @@ $ pod install
 ```
 ## Setup Module
 
-At frist, if you do not want to use use the DesignSystem custom fonts, jump for the next step, now if you wuant to use, setup the custom fonts in your AppDelegate or in another file that is used before using the fonts
+At frist, if you do not want to use use the DesignSystem custom fonts, jump for the next step, now if you want to use, setup the custom fonts in your AppDelegate or in another file that is used before using the fonts
 
 ```swift
 import SharpnezDesignSystem
