@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-After that, the SharpnezSDK is ready for usage
+After that, the SharpnezCloud is ready for usage
 
 ## Usage
 
