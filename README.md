@@ -25,10 +25,6 @@
 
 #### . [SharpnezCloud](https://github.com/TiagoLinharess/IOSSDK/blob/main/SDKCloud/Resources/SDKCloud.docc/SDKCloud.md)
 
-[![Build Status](https://api.travis-ci.com/TiagoLinharess/SharpnezCloud.svg)](https://api.travis-ci.com/TiagoLinharess/SharpnezCloud.svg)
-[![Platform](https://img.shields.io/cocoapods/p/SharpnezCloud.svg?style=flat)](https://github.com/TiagoLinharess/IOSSDK)
-[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SharpnezCloud.svg)](https://cocoapods.org/pods/SharpnezCloud)
-
 #### . [SharpnezCore](https://github.com/TiagoLinharess/IOSSDK/blob/main/SDKCore/Resources/SDKCore.docc/SDKCore.md)
 
 [![Build Status](https://api.travis-ci.com/TiagoLinharess/SharpnezCore.svg)](https://api.travis-ci.com/TiagoLinharess/SharpnezCore.svg)
