@@ -50,8 +50,6 @@
 		ED653AE32A5703E50022A06F /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED653AE42A5703E50022A06F /* SDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED653AEA2A5705850022A06F /* UIColor+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AE92A5705850022A06F /* UIColor+DS+extensions.swift */; };
-		ED653AF02A5705DC0022A06F /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
-		ED653AF12A5705DC0022A06F /* SDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ED653AFF2A571A020022A06F /* ApiProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AFE2A571A020022A06F /* ApiProviderTests.swift */; };
 		ED653B002A571C4D0022A06F /* CGFloat+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653AB22A56F0840022A06F /* CGFloat+DS+extensions.swift */; };
 		ED653B022A574CB40022A06F /* ApiWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED653B012A574CB40022A06F /* ApiWorkerTests.swift */; };
@@ -170,13 +168,6 @@
 			remoteGlobalIDString = ED99AEAE2A55D4E50013D295;
 			remoteInfo = SDKCore;
 		};
-		ED653AF22A5705DC0022A06F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ED99AE982A55D4AC0013D295 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ED99AEAE2A55D4E50013D295;
-			remoteInfo = SDKCore;
-		};
 		ED99AEBA2A55D4E60013D295 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ED99AE982A55D4AC0013D295 /* Project object */;
@@ -216,17 +207,6 @@
 				ED653ADB2A5703DE0022A06F /* DesignSystem.framework in Embed Frameworks */,
 				ED653AE42A5703E50022A06F /* SDKCore.framework in Embed Frameworks */,
 				ED653AE02A5703E10022A06F /* SDKCloud.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED653AEF2A5705D90022A06F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				ED653AF12A5705DC0022A06F /* SDKCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +355,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED653AF02A5705DC0022A06F /* SDKCore.framework in Frameworks */,
 				3D3511D0E1EC6D7A75525B04 /* Pods_DesignSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1292,12 +1271,10 @@
 				ED653ABB2A5703A00022A06F /* Sources */,
 				ED653ABC2A5703A00022A06F /* Frameworks */,
 				ED653ABD2A5703A00022A06F /* Resources */,
-				ED653AEF2A5705D90022A06F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ED653AF32A5705DC0022A06F /* PBXTargetDependency */,
 			);
 			name = DesignSystem;
 			productName = DesignSystem;
@@ -1951,11 +1928,6 @@
 			isa = PBXTargetDependency;
 			target = ED99AEAE2A55D4E50013D295 /* SDKCore */;
 			targetProxy = ED653AE52A5703E50022A06F /* PBXContainerItemProxy */;
-		};
-		ED653AF32A5705DC0022A06F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ED99AEAE2A55D4E50013D295 /* SDKCore */;
-			targetProxy = ED653AF22A5705DC0022A06F /* PBXContainerItemProxy */;
 		};
 		ED99AEBB2A55D4E60013D295 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
