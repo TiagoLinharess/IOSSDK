@@ -33,7 +33,7 @@ $ pod install
 ```
 ## Setup Module
 
-At frist, in your AppDelegate or in another file that is used Before your HTTPS request, setup your base URL in SharpnezCloud
+At frist, in your AppDelegate or in another file that is used before your HTTPS request, setup your base URL in SharpnezCloud
 
 ```swift
 import SharpnezCloud
