@@ -18,7 +18,7 @@ final class FontsTests: XCTestCase {
     func test_snapshot() throws {
         let label = UILabel()
         label.text = "Hello test"
-        label.font = .title1(.roboto, .bold)
+        label.font = .title1(.poppins, .bold)
         
         assertSnapshot(matching: label, as: .image)
     }
