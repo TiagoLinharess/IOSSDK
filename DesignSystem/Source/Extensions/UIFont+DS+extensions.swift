@@ -10,7 +10,7 @@ import SwiftUI
 // MARK: - DSFontName
 
 public enum DSFontName: String {
-    case roboto = "RobotoMono"
+    case poppins = "Poppins"
     case montserrat = "Montserrat"
 }
 

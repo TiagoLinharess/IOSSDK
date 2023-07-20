@@ -20,9 +20,9 @@ public final class DesignSystemConfiguration: NSObject {
         
         /// List the fonts by name and extension, relative to the bundle.
         let fonts = [
-            bundle.url(forResource: DSConstants.Fonts.robotoMonoBoldFont, withExtension: DSConstants.Fonts.fontsExtension),
-            bundle.url(forResource: DSConstants.Fonts.robotoMonoMediumFont, withExtension: DSConstants.Fonts.fontsExtension),
-            bundle.url(forResource: DSConstants.Fonts.robotoMonoRegularFont, withExtension: DSConstants.Fonts.fontsExtension),
+            bundle.url(forResource: DSConstants.Fonts.poppinsBoldFont, withExtension: DSConstants.Fonts.fontsExtension),
+            bundle.url(forResource: DSConstants.Fonts.poppinsMediumFont, withExtension: DSConstants.Fonts.fontsExtension),
+            bundle.url(forResource: DSConstants.Fonts.poppinsRegularFont, withExtension: DSConstants.Fonts.fontsExtension),
             bundle.url(forResource: DSConstants.Fonts.montserratBoldFont, withExtension: DSConstants.Fonts.fontsExtension),
             bundle.url(forResource: DSConstants.Fonts.montserratMediumFont, withExtension: DSConstants.Fonts.fontsExtension),
             bundle.url(forResource: DSConstants.Fonts.montserratRegularFont, withExtension: DSConstants.Fonts.fontsExtension)

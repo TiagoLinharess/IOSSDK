@@ -85,6 +85,9 @@
 		ED99AF1F2A55E6350013D295 /* SDKCloudConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF1E2A55E62A0013D295 /* SDKCloudConfiguration.swift */; };
 		ED99AF362A55E8AC0013D295 /* ViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF352A55E8A10013D295 /* ViewStatus.swift */; };
 		ED99AF452A560A960013D295 /* Error+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99AF432A5602050013D295 /* Error+extensions.swift */; };
+		EDD4BAD12A695C1E003C67FD /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDD4BACE2A695C1E003C67FD /* Poppins-Regular.ttf */; };
+		EDD4BAD22A695C1E003C67FD /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDD4BACF2A695C1E003C67FD /* Poppins-Medium.ttf */; };
+		EDD4BAD32A695C1E003C67FD /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDD4BAD02A695C1E003C67FD /* Poppins-Bold.ttf */; };
 		EDF8745C2A6027B7004DA638 /* VIPSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8745B2A6027B7004DA638 /* VIPSceneView.swift */; };
 		EDF8745E2A602949004DA638 /* VIPSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8745D2A602949004DA638 /* VIPSceneRouter.swift */; };
 		EDF874612A6029FB004DA638 /* VIPSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874602A6029FB004DA638 /* VIPSceneViewController.swift */; };
@@ -108,9 +111,6 @@
 		EDF8748F2A604A5A004DA638 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF8748C2A604A5A004DA638 /* Montserrat-Bold.ttf */; };
 		EDF874902A604A5A004DA638 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF8748D2A604A5A004DA638 /* Montserrat-Medium.ttf */; };
 		EDF874912A604A5A004DA638 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF8748E2A604A5A004DA638 /* Montserrat-Regular.ttf */; };
-		EDF874952A604A7E004DA638 /* RobotoMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF874922A604A7E004DA638 /* RobotoMono-Bold.ttf */; };
-		EDF874962A604A7E004DA638 /* RobotoMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF874932A604A7E004DA638 /* RobotoMono-Medium.ttf */; };
-		EDF874972A604A7E004DA638 /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF874942A604A7E004DA638 /* RobotoMono-Regular.ttf */; };
 		EDF8749A2A604C47004DA638 /* UIFont+DS+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874992A604C47004DA638 /* UIFont+DS+extensions.swift */; };
 		EDF8749D2A604F5F004DA638 /* FontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8749C2A604F5F004DA638 /* FontsView.swift */; };
 		EDF874A32A60668B004DA638 /* DesignSystemConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874A22A60668B004DA638 /* DesignSystemConfiguration.swift */; };
@@ -310,6 +310,9 @@
 		ED99AF432A5602050013D295 /* Error+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+extensions.swift"; sourceTree = "<group>"; };
 		ED99AF4A2A5617310013D295 /* SwiftUISDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED99AF4C2A5617310013D295 /* SwiftUISDKSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISDKSampleApp.swift; sourceTree = "<group>"; };
+		EDD4BACE2A695C1E003C67FD /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		EDD4BACF2A695C1E003C67FD /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		EDD4BAD02A695C1E003C67FD /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		EDF8744F2A5F525B004DA638 /* UIVIPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPBaseViewController.swift; sourceTree = "<group>"; };
 		EDF874522A5F53A9004DA638 /* UIVIPInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPInteractor.swift; sourceTree = "<group>"; };
 		EDF874552A5F546B004DA638 /* UIVIPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPPresenter.swift; sourceTree = "<group>"; };
@@ -328,9 +331,6 @@
 		EDF8748C2A604A5A004DA638 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		EDF8748D2A604A5A004DA638 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		EDF8748E2A604A5A004DA638 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		EDF874922A604A7E004DA638 /* RobotoMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Bold.ttf"; sourceTree = "<group>"; };
-		EDF874932A604A7E004DA638 /* RobotoMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Medium.ttf"; sourceTree = "<group>"; };
-		EDF874942A604A7E004DA638 /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
 		EDF874982A604AF0004DA638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF874992A604C47004DA638 /* UIFont+DS+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+DS+extensions.swift"; sourceTree = "<group>"; };
 		EDF8749C2A604F5F004DA638 /* FontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
@@ -1155,9 +1155,9 @@
 		EDF874A02A6054D4004DA638 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				EDF874922A604A7E004DA638 /* RobotoMono-Bold.ttf */,
-				EDF874932A604A7E004DA638 /* RobotoMono-Medium.ttf */,
-				EDF874942A604A7E004DA638 /* RobotoMono-Regular.ttf */,
+				EDD4BAD02A695C1E003C67FD /* Poppins-Bold.ttf */,
+				EDD4BACF2A695C1E003C67FD /* Poppins-Medium.ttf */,
+				EDD4BACE2A695C1E003C67FD /* Poppins-Regular.ttf */,
 				EDF8748C2A604A5A004DA638 /* Montserrat-Bold.ttf */,
 				EDF8748D2A604A5A004DA638 /* Montserrat-Medium.ttf */,
 				EDF8748E2A604A5A004DA638 /* Montserrat-Regular.ttf */,
@@ -1476,11 +1476,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF874912A604A5A004DA638 /* Montserrat-Regular.ttf in Resources */,
+				EDD4BAD32A695C1E003C67FD /* Poppins-Bold.ttf in Resources */,
 				EDF874902A604A5A004DA638 /* Montserrat-Medium.ttf in Resources */,
+				EDD4BAD12A695C1E003C67FD /* Poppins-Regular.ttf in Resources */,
 				EDF8748F2A604A5A004DA638 /* Montserrat-Bold.ttf in Resources */,
-				EDF874952A604A7E004DA638 /* RobotoMono-Bold.ttf in Resources */,
-				EDF874962A604A7E004DA638 /* RobotoMono-Medium.ttf in Resources */,
-				EDF874972A604A7E004DA638 /* RobotoMono-Regular.ttf in Resources */,
+				EDD4BAD22A695C1E003C67FD /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

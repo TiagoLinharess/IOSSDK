@@ -15,17 +15,17 @@ struct FontsView: View {
             Spacer()
             VStack {
                 Text("Hello World")
-                    .font(UIFont.title1(.roboto, .bold).font)
+                    .font(UIFont.title1(.poppins, .bold).font)
                 Text("Hello World")
-                    .font(UIFont.title2(.roboto, .medium).font)
+                    .font(UIFont.title2(.poppins, .medium).font)
                 Text("Hello World")
-                    .font(UIFont.title3(.roboto, .regular).font)
+                    .font(UIFont.title3(.poppins, .regular).font)
                 Text("Hello World")
-                    .font(UIFont.subtitle(.roboto, .bold).font)
+                    .font(UIFont.subtitle(.poppins, .bold).font)
                 Text("Hello World")
-                    .font(UIFont.body(.roboto, .medium).font)
+                    .font(UIFont.body(.poppins, .medium).font)
                 Text("Hello World")
-                    .font(UIFont.caption(.roboto, .regular).font)
+                    .font(UIFont.caption(.poppins, .regular).font)
             }
             VStack {
                 Text("Hello World")

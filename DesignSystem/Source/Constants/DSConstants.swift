@@ -16,14 +16,14 @@ enum DSConstants {
     /// Fonts Constants.
     enum Fonts {
         
-        /// RobotoMono-Bold
-        static let robotoMonoBoldFont: String = "RobotoMono-Bold"
+        /// Poppins-Bold
+        static let poppinsBoldFont: String = "Poppins-Bold"
         
-        /// RobotoMono-Medium
-        static let robotoMonoMediumFont: String = "RobotoMono-Medium"
+        /// Poppins-Medium
+        static let poppinsMediumFont: String = "Poppins-Medium"
         
-        /// RobotoMono-Regular
-        static let robotoMonoRegularFont: String = "RobotoMono-Regular"
+        /// Poppins-Regular
+        static let poppinsRegularFont: String = "Poppins-Regular"
         
         /// Montserrat-Bold
         static let montserratBoldFont: String = "Montserrat-Bold"
