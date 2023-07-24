@@ -90,6 +90,7 @@
 		EDD4BAD32A695C1E003C67FD /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDD4BAD02A695C1E003C67FD /* Poppins-Bold.ttf */; };
 		EDD4BAE22A697CA6003C67FD /* UISHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4BAE12A697CA6003C67FD /* UISHLabel.swift */; };
 		EDD4BAE52A69AD60003C67FD /* UISHLabelSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4BAE42A69AD60003C67FD /* UISHLabelSampleViewController.swift */; };
+		EDD4BAE82A6ED7B4003C67FD /* UISHLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4BAE72A6ED7B4003C67FD /* UISHLabelTests.swift */; };
 		EDF8745C2A6027B7004DA638 /* VIPSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8745B2A6027B7004DA638 /* VIPSceneView.swift */; };
 		EDF8745E2A602949004DA638 /* VIPSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8745D2A602949004DA638 /* VIPSceneRouter.swift */; };
 		EDF874612A6029FB004DA638 /* VIPSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874602A6029FB004DA638 /* VIPSceneViewController.swift */; };
@@ -317,6 +318,7 @@
 		EDD4BAD02A695C1E003C67FD /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		EDD4BAE12A697CA6003C67FD /* UISHLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHLabel.swift; sourceTree = "<group>"; };
 		EDD4BAE42A69AD60003C67FD /* UISHLabelSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHLabelSampleViewController.swift; sourceTree = "<group>"; };
+		EDD4BAE72A6ED7B4003C67FD /* UISHLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHLabelTests.swift; sourceTree = "<group>"; };
 		EDF8744F2A5F525B004DA638 /* UIVIPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPBaseViewController.swift; sourceTree = "<group>"; };
 		EDF874522A5F53A9004DA638 /* UIVIPInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPInteractor.swift; sourceTree = "<group>"; };
 		EDF874552A5F546B004DA638 /* UIVIPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPPresenter.swift; sourceTree = "<group>"; };
@@ -752,6 +754,7 @@
 		ED786EFA2A5F42D100661893 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				EDD4BAE62A6ED733003C67FD /* Label */,
 				EDF874682A602ED3004DA638 /* VIP */,
 				ED786EFB2A5F42DB00661893 /* MVVM */,
 			);
@@ -1083,6 +1086,14 @@
 				EDD4BAE42A69AD60003C67FD /* UISHLabelSampleViewController.swift */,
 			);
 			path = UISHLabel;
+			sourceTree = "<group>";
+		};
+		EDD4BAE62A6ED733003C67FD /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				EDD4BAE72A6ED7B4003C67FD /* UISHLabelTests.swift */,
+			);
+			path = Label;
 			sourceTree = "<group>";
 		};
 		EDF8744D2A5F50D6004DA638 /* VIP */ = {
@@ -1857,6 +1868,7 @@
 				EDF874822A60406A004DA638 /* EmptyViewModelMock.swift in Sources */,
 				EDF8747F2A604041004DA638 /* UIVIPBaseViewControllerTests.swift in Sources */,
 				EDF874802A60404B004DA638 /* UIMVVMBaseViewControllerTests.swift in Sources */,
+				EDD4BAE82A6ED7B4003C67FD /* UISHLabelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,9 @@ final class UISHLabelSampleViewController: UIViewController, UIViewCode {
         let label = UISHLabel()
         label.text = "Hello UISHLabel 3"
         label.style = .init(color: .red100, font: .title1(.poppins, .medium))
+        label.onClick = {
+            print("CLick UISHLabel 3")
+        }
         return label
     }()
     
