@@ -68,6 +68,7 @@
 		ED786EE82A5DD4AD00661893 /* UIImageFromURLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EE72A5DD4AD00661893 /* UIImageFromURLFactory.swift */; };
 		ED786EED2A5DE7FC00661893 /* ViewStatusSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EEC2A5DE7FC00661893 /* ViewStatusSampleView.swift */; };
 		ED786EF42A5F370800661893 /* ColorsFromHexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EF32A5F370800661893 /* ColorsFromHexView.swift */; };
+		ED890BAE2A6EE4E6008C605E /* UISHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BAD2A6EE4E6008C605E /* UISHButton.swift */; };
 		ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEB22A55D4E50013D295 /* SDKCore.docc */; };
 		ED99AEB92A55D4E60013D295 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED99AEBF2A55D4E60013D295 /* SDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99AEB12A55D4E50013D295 /* SDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -281,6 +282,7 @@
 		ED786EF32A5F370800661893 /* ColorsFromHexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsFromHexView.swift; sourceTree = "<group>"; };
 		ED786EFD2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMVVMBaseViewControllerTests.swift; sourceTree = "<group>"; };
 		ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModelMock.swift; sourceTree = "<group>"; };
+		ED890BAD2A6EE4E6008C605E /* UISHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButton.swift; sourceTree = "<group>"; };
 		ED99AEAF2A55D4E50013D295 /* SDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED99AEB12A55D4E50013D295 /* SDKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCore.h; sourceTree = "<group>"; };
 		ED99AEB22A55D4E50013D295 /* SDKCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCore.docc; sourceTree = "<group>"; };
@@ -669,6 +671,7 @@
 		ED786ECC2A5CD39800661893 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				ED890BAC2A6EE4CC008C605E /* Button */,
 				EDD4BADB2A697BC1003C67FD /* Label */,
 				ED786ED42A5D93EF00661893 /* ViewCode */,
 				ED786ED02A5D925600661893 /* MVVM */,
@@ -809,6 +812,14 @@
 				ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		ED890BAC2A6EE4CC008C605E /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				ED890BAD2A6EE4E6008C605E /* UISHButton.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		ED99AE972A55D4AC0013D295 = {
@@ -1845,6 +1856,7 @@
 				EDF874752A603F2E004DA638 /* DSConstants.swift in Sources */,
 				EDF8747A2A603F99004DA638 /* UIMVVMBaseViewController.swift in Sources */,
 				EDD4BAE22A697CA6003C67FD /* UISHLabel.swift in Sources */,
+				ED890BAE2A6EE4E6008C605E /* UISHButton.swift in Sources */,
 				EDF8747C2A603FA2004DA638 /* UIViewCode.swift in Sources */,
 				EDF874762A603F86004DA638 /* UIVIPRouter.swift in Sources */,
 				ED653AC32A5703A00022A06F /* DesignSystem.docc in Sources */,

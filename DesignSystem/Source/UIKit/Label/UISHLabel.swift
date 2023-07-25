@@ -8,7 +8,7 @@
 import SnapKit
 import UIKit
 
-public class UISHLabel: UIView {
+public final class UISHLabel: UIView {
     
     // MARK: - Public Properties
     
@@ -57,7 +57,6 @@ public class UISHLabel: UIView {
     public required init(text: String? = nil, style: Style = Style(color: .black, font: .body(.montserrat, .regular))) {
         super.init(frame: .zero)
         setup()
-        setupAction()
         configure(text: text, style: style)
     }
     
@@ -68,31 +67,38 @@ public class UISHLabel: UIView {
     }
 }
 
-extension UISHLabel: UIViewCode {
+private extension UISHLabel {
     
     // MARK: - View Setup
     
+    func setup() {
+        setupView()
+        setupAction()
+        setupHierarchy()
+        setupConstraints()
+    }
+    
     /// Public propertie for label configuration.
-    public func configure(text: String?, style: Style) {
+    func configure(text: String?, style: Style) {
         self.text = text
         self.font = style.font
         self.textColor = style.color
     }
 
     /// Propertie for component setup.
-    public func setupView() {
+    func setupView() {
         backgroundColor = .clear
         label.isUserInteractionEnabled = true
     }
     
     /// Component hierarchy.
-    public func setupHierarchy() {
+    func setupHierarchy() {
         addSubview(stackView)
         stackView.addArrangedSubview(label)
     }
     
     /// Component constraints.
-    public func setupConstraints() {
+    func setupConstraints() {
         stackView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
