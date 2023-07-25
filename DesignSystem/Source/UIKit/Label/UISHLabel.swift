@@ -71,6 +71,7 @@ private extension UISHLabel {
     
     // MARK: - View Setup
     
+    /// Method for view setup.
     func setup() {
         setupView()
         setupAction()
@@ -78,26 +79,26 @@ private extension UISHLabel {
         setupConstraints()
     }
     
-    /// Public propertie for label configuration.
+    /// Method for label configuration.
     func configure(text: String?, style: Style) {
         self.text = text
         self.font = style.font
         self.textColor = style.color
     }
 
-    /// Propertie for component setup.
+    /// Method for component setup.
     func setupView() {
         backgroundColor = .clear
         label.isUserInteractionEnabled = true
     }
     
-    /// Component hierarchy.
+    /// Method for component hierarchy.
     func setupHierarchy() {
         addSubview(stackView)
         stackView.addArrangedSubview(label)
     }
     
-    /// Component constraints.
+    /// Method for component constraints.
     func setupConstraints() {
         stackView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
