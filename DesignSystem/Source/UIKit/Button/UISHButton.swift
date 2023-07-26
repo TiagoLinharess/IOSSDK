@@ -14,12 +14,12 @@ public final class UISHButton: UIView {
     
     /// Public propertie to get and set button text.
     public var text: String? = nil {
-        didSet { configure(text: text, style: style) }
+        didSet { configureButton(text: text, style: style) }
     }
     
     /// Public propertie to get and set button style.
     public var style: Style? = nil {
-        didSet { configure(text: text, style: style) }
+        didSet { configureButton(text: text, style: style) }
     }
     
     /// Public propertie to get and set button action.
@@ -29,7 +29,7 @@ public final class UISHButton: UIView {
     
     // MARK: - UI Elements
     
-    /// UIButton
+    /// UIButton.
     private lazy var button: UIButton = {
         let button = UIButton(configuration: .plain())
         button.layer.cornerRadius = .extraSmall
@@ -52,8 +52,7 @@ public final class UISHButton: UIView {
     ) {
         super.init(frame: .zero)
         setup()
-        configure(text: text, style: style)
-        setupAction(action: action)
+        configure(text: text, style: style, action: action)
     }
     
     /// Unavailable init for component.
@@ -72,6 +71,12 @@ private extension UISHButton {
         setupView()
         setupHierarchy()
         setupConstraints()
+    }
+    
+    func configure(text: String?, style: Style?, action: UIAction?) {
+        self.text = text
+        self.style = style
+        self.action = action
     }
 
     /// Method for component setup.
@@ -96,8 +101,8 @@ private extension UISHButton {
     
     // MARK: - View Configuration
     
-    /// Method for label configuration.
-    func configure(text: String?, style: Style?) {
+    /// Method for button configuration.
+    func configureButton(text: String?, style: Style?) {
         guard let style, let text else { return }
         
         var container = AttributeContainer()

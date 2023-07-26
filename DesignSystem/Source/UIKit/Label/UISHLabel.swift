@@ -13,25 +13,25 @@ public final class UISHLabel: UIView {
     // MARK: - Public Properties
     
     /// Public propertie to get and set label text.
-    public var text: String? = .init() {
+    public var text: String? = nil {
         didSet { label.text = text }
     }
     
     /// Public propertie to get and set label color.
-    public var textColor: UIColor = .init() {
+    public var textColor: UIColor? = nil {
         didSet { label.textColor = textColor }
     }
     
     /// Public propertie to get and set label font.
-    public var font: UIFont = .init() {
+    public var font: UIFont? = nil {
         didSet { label.font = font }
     }
     
     /// Public propertie to get and set label style.
     public var style: Style? = nil {
         didSet {
-            label.textColor = style?.color
-            label.font = style?.font
+            textColor = style?.color
+            font = style?.font
         }
     }
     
