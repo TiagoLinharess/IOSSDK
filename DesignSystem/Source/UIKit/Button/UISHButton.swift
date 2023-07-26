@@ -24,7 +24,7 @@ public final class UISHButton: UIView {
     
     /// Public propertie to get and set button action.
     public var action: UIAction? = nil {
-        didSet { setAction(action: action) }
+        didSet { setupAction(action: action) }
     }
     
     // MARK: - UI Elements
@@ -53,7 +53,7 @@ public final class UISHButton: UIView {
         super.init(frame: .zero)
         setup()
         configure(text: text, style: style)
-        setAction(action: action)
+        setupAction(action: action)
     }
     
     /// Unavailable init for component.
@@ -112,7 +112,7 @@ private extension UISHButton {
     }
     
     /// Set button action.
-    func setAction(action: UIAction?) {
+    func setupAction(action: UIAction?) {
         guard let action else { return }
         button.addAction(action, for: .touchUpInside)
     }
