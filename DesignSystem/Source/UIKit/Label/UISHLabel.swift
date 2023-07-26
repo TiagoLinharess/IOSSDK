@@ -108,6 +108,8 @@ private extension UISHLabel {
 
 extension UISHLabel {
     
+    // MARK: - View Action
+    
     /// Setup component action.
     private func setupAction() {
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(labelAction))
