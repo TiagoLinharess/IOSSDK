@@ -8,30 +8,30 @@
 import SnapKit
 import UIKit
 
-public class UISHLabel: UIView {
+public final class UISHLabel: UIView {
     
     // MARK: - Public Properties
     
     /// Public propertie to get and set label text.
-    public var text: String? = .init() {
+    public var text: String? = nil {
         didSet { label.text = text }
     }
     
     /// Public propertie to get and set label color.
-    public var textColor: UIColor = .init() {
+    public var textColor: UIColor? = nil {
         didSet { label.textColor = textColor }
     }
     
     /// Public propertie to get and set label font.
-    public var font: UIFont = .init() {
+    public var font: UIFont? = nil {
         didSet { label.font = font }
     }
     
     /// Public propertie to get and set label style.
     public var style: Style? = nil {
         didSet {
-            label.textColor = style?.color
-            label.font = style?.font
+            textColor = style?.color
+            font = style?.font
         }
     }
     
@@ -57,7 +57,6 @@ public class UISHLabel: UIView {
     public required init(text: String? = nil, style: Style = Style(color: .black, font: .body(.montserrat, .regular))) {
         super.init(frame: .zero)
         setup()
-        setupAction()
         configure(text: text, style: style)
     }
     
@@ -68,31 +67,39 @@ public class UISHLabel: UIView {
     }
 }
 
-extension UISHLabel: UIViewCode {
+private extension UISHLabel {
     
     // MARK: - View Setup
     
-    /// Public propertie for label configuration.
-    public func configure(text: String?, style: Style) {
+    /// Method for view setup.
+    func setup() {
+        setupView()
+        setupAction()
+        setupHierarchy()
+        setupConstraints()
+    }
+    
+    /// Method for label configuration.
+    func configure(text: String?, style: Style) {
         self.text = text
         self.font = style.font
         self.textColor = style.color
     }
 
-    /// Propertie for component setup.
-    public func setupView() {
+    /// Method for component setup.
+    func setupView() {
         backgroundColor = .clear
         label.isUserInteractionEnabled = true
     }
     
-    /// Component hierarchy.
-    public func setupHierarchy() {
+    /// Method for component hierarchy.
+    func setupHierarchy() {
         addSubview(stackView)
         stackView.addArrangedSubview(label)
     }
     
-    /// Component constraints.
-    public func setupConstraints() {
+    /// Method for component constraints.
+    func setupConstraints() {
         stackView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
@@ -100,6 +107,8 @@ extension UISHLabel: UIViewCode {
 }
 
 extension UISHLabel {
+    
+    // MARK: - View Action
     
     /// Setup component action.
     private func setupAction() {

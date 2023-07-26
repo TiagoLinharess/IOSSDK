@@ -14,6 +14,7 @@ struct SampleItem {
     static var samples: [SampleItem] = [
         .init(controller: UIImageFromURLFactory.configure(), name: "UIImageView from url"),
         .init(controller: VIPSceneFactory.configure(), name: "VIP Clean Architecture Scene"),
-        .init(controller: UISHLabelSampleViewController(), name: "UISHLabel")
+        .init(controller: UISHLabelSampleViewController(), name: "UISHLabel"),
+        .init(controller: UISHButtonSampleViewController(), name: "UISHButton")
     ]
 }

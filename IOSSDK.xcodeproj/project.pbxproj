@@ -68,6 +68,9 @@
 		ED786EE82A5DD4AD00661893 /* UIImageFromURLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EE72A5DD4AD00661893 /* UIImageFromURLFactory.swift */; };
 		ED786EED2A5DE7FC00661893 /* ViewStatusSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EEC2A5DE7FC00661893 /* ViewStatusSampleView.swift */; };
 		ED786EF42A5F370800661893 /* ColorsFromHexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EF32A5F370800661893 /* ColorsFromHexView.swift */; };
+		ED890BAE2A6EE4E6008C605E /* UISHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BAD2A6EE4E6008C605E /* UISHButton.swift */; };
+		ED890BB12A716878008C605E /* UISHButtonSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BB02A716878008C605E /* UISHButtonSampleViewController.swift */; };
+		ED890BB42A7196E5008C605E /* UISHButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BB32A7196E5008C605E /* UISHButtonTests.swift */; };
 		ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEB22A55D4E50013D295 /* SDKCore.docc */; };
 		ED99AEB92A55D4E60013D295 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED99AEBF2A55D4E60013D295 /* SDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99AEB12A55D4E50013D295 /* SDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -281,6 +284,9 @@
 		ED786EF32A5F370800661893 /* ColorsFromHexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsFromHexView.swift; sourceTree = "<group>"; };
 		ED786EFD2A5F430A00661893 /* UIMVVMBaseViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMVVMBaseViewControllerTests.swift; sourceTree = "<group>"; };
 		ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModelMock.swift; sourceTree = "<group>"; };
+		ED890BAD2A6EE4E6008C605E /* UISHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButton.swift; sourceTree = "<group>"; };
+		ED890BB02A716878008C605E /* UISHButtonSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButtonSampleViewController.swift; sourceTree = "<group>"; };
+		ED890BB32A7196E5008C605E /* UISHButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButtonTests.swift; sourceTree = "<group>"; };
 		ED99AEAF2A55D4E50013D295 /* SDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED99AEB12A55D4E50013D295 /* SDKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCore.h; sourceTree = "<group>"; };
 		ED99AEB22A55D4E50013D295 /* SDKCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCore.docc; sourceTree = "<group>"; };
@@ -628,6 +634,7 @@
 		ED786EBF2A5CC69600661893 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				ED890BAF2A71684F008C605E /* UISHButton */,
 				EDD4BAE32A69AD35003C67FD /* UISHLabel */,
 				ED786EC12A5CC7CE00661893 /* Home */,
 				ED786EC02A5CC79100661893 /* UIImageFromURL */,
@@ -669,6 +676,7 @@
 		ED786ECC2A5CD39800661893 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				ED890BAC2A6EE4CC008C605E /* Button */,
 				EDD4BADB2A697BC1003C67FD /* Label */,
 				ED786ED42A5D93EF00661893 /* ViewCode */,
 				ED786ED02A5D925600661893 /* MVVM */,
@@ -754,6 +762,7 @@
 		ED786EFA2A5F42D100661893 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				ED890BB22A71953E008C605E /* Button */,
 				EDD4BAE62A6ED733003C67FD /* Label */,
 				EDF874682A602ED3004DA638 /* VIP */,
 				ED786EFB2A5F42DB00661893 /* MVVM */,
@@ -809,6 +818,30 @@
 				ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		ED890BAC2A6EE4CC008C605E /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				ED890BAD2A6EE4E6008C605E /* UISHButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		ED890BAF2A71684F008C605E /* UISHButton */ = {
+			isa = PBXGroup;
+			children = (
+				ED890BB02A716878008C605E /* UISHButtonSampleViewController.swift */,
+			);
+			path = UISHButton;
+			sourceTree = "<group>";
+		};
+		ED890BB22A71953E008C605E /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				ED890BB32A7196E5008C605E /* UISHButtonTests.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		ED99AE972A55D4AC0013D295 = {
@@ -1817,6 +1850,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF874672A602BD5004DA638 /* VIPSceneFactory.swift in Sources */,
+				ED890BB12A716878008C605E /* UISHButtonSampleViewController.swift in Sources */,
 				ED786EE62A5DD2D800661893 /* UIImageFromURLViewController.swift in Sources */,
 				EDD4BAE52A69AD60003C67FD /* UISHLabelSampleViewController.swift in Sources */,
 				ED08000A2A56194300CABB93 /* AppDelegate.swift in Sources */,
@@ -1845,6 +1879,7 @@
 				EDF874752A603F2E004DA638 /* DSConstants.swift in Sources */,
 				EDF8747A2A603F99004DA638 /* UIMVVMBaseViewController.swift in Sources */,
 				EDD4BAE22A697CA6003C67FD /* UISHLabel.swift in Sources */,
+				ED890BAE2A6EE4E6008C605E /* UISHButton.swift in Sources */,
 				EDF8747C2A603FA2004DA638 /* UIViewCode.swift in Sources */,
 				EDF874762A603F86004DA638 /* UIVIPRouter.swift in Sources */,
 				ED653AC32A5703A00022A06F /* DesignSystem.docc in Sources */,
@@ -1862,6 +1897,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED890BB42A7196E5008C605E /* UISHButtonTests.swift in Sources */,
 				EDF874A62A606AE2004DA638 /* FontsTests.swift in Sources */,
 				EDF8747E2A60403C004DA638 /* EmptyRouterMock.swift in Sources */,
 				EDF8747D2A604038004DA638 /* EmptyInteractorMock.swift in Sources */,
@@ -2005,6 +2041,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y7M54NCKD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIKitSDKSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2033,6 +2070,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Y7M54NCKD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UIKitSDKSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2481,6 +2519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISDKSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Y7M54NCKD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -2493,7 +2532,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tiagolinhares.SwiftUISDKSample;
+				PRODUCT_BUNDLE_IDENTIFIER = tiagolinhares.SwiftUISDKSample.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -2511,6 +2550,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUISDKSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9Y7M54NCKD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -2523,7 +2563,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tiagolinhares.SwiftUISDKSample;
+				PRODUCT_BUNDLE_IDENTIFIER = tiagolinhares.SwiftUISDKSample.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
