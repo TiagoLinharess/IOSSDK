@@ -73,21 +73,6 @@ private extension UISHButton {
         setupHierarchy()
         setupConstraints()
     }
-    
-    /// Method for label configuration.
-    func configure(text: String?, style: Style?) {
-        guard let style, let text else { return }
-        
-        var container = AttributeContainer()
-        container.font = style.font
-        
-        button.setTitleColor(style.titleColor, for: .normal)
-        button.backgroundColor = style.backgroundColor
-        button.configuration?.baseForegroundColor = style.titleColor
-        button.layer.borderWidth = style.borderWidth
-        button.layer.borderColor = style.borderColor
-        button.configuration?.attributedTitle = AttributedString(text, attributes: container)
-    }
 
     /// Method for component setup.
     func setupView() {
@@ -104,6 +89,26 @@ private extension UISHButton {
         button.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
+    }
+}
+
+private extension UISHButton {
+    
+    // MARK: - View Configuration
+    
+    /// Method for label configuration.
+    func configure(text: String?, style: Style?) {
+        guard let style, let text else { return }
+        
+        var container = AttributeContainer()
+        container.font = style.font
+        
+        button.setTitleColor(style.titleColor, for: .normal)
+        button.backgroundColor = style.backgroundColor
+        button.configuration?.baseForegroundColor = style.titleColor
+        button.layer.borderWidth = style.borderWidth
+        button.layer.borderColor = style.borderColor
+        button.configuration?.attributedTitle = AttributedString(text, attributes: container)
     }
     
     /// Set button action.
