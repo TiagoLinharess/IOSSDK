@@ -71,6 +71,8 @@
 		ED890BAE2A6EE4E6008C605E /* UISHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BAD2A6EE4E6008C605E /* UISHButton.swift */; };
 		ED890BB12A716878008C605E /* UISHButtonSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BB02A716878008C605E /* UISHButtonSampleViewController.swift */; };
 		ED890BB42A7196E5008C605E /* UISHButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BB32A7196E5008C605E /* UISHButtonTests.swift */; };
+		ED890BBC2A719CFA008C605E /* SHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BBB2A719CFA008C605E /* SHLabel.swift */; };
+		ED890BBF2A719E7C008C605E /* SHLabelSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BBE2A719E7C008C605E /* SHLabelSampleView.swift */; };
 		ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEB22A55D4E50013D295 /* SDKCore.docc */; };
 		ED99AEB92A55D4E60013D295 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED99AEBF2A55D4E60013D295 /* SDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99AEB12A55D4E50013D295 /* SDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -287,6 +289,8 @@
 		ED890BAD2A6EE4E6008C605E /* UISHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButton.swift; sourceTree = "<group>"; };
 		ED890BB02A716878008C605E /* UISHButtonSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButtonSampleViewController.swift; sourceTree = "<group>"; };
 		ED890BB32A7196E5008C605E /* UISHButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButtonTests.swift; sourceTree = "<group>"; };
+		ED890BBB2A719CFA008C605E /* SHLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHLabel.swift; sourceTree = "<group>"; };
+		ED890BBE2A719E7C008C605E /* SHLabelSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHLabelSampleView.swift; sourceTree = "<group>"; };
 		ED99AEAF2A55D4E50013D295 /* SDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED99AEB12A55D4E50013D295 /* SDKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCore.h; sourceTree = "<group>"; };
 		ED99AEB22A55D4E50013D295 /* SDKCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCore.docc; sourceTree = "<group>"; };
@@ -525,6 +529,7 @@
 		ED653AE72A5705660022A06F /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				ED890BB62A719CCE008C605E /* SwiftUI */,
 				EDF874A12A606673004DA638 /* Core */,
 				EDF874732A603F1E004DA638 /* Constants */,
 				ED653AE82A5705720022A06F /* Extensions */,
@@ -844,6 +849,30 @@
 			path = Button;
 			sourceTree = "<group>";
 		};
+		ED890BB62A719CCE008C605E /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				ED890BB82A719CDD008C605E /* Label */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		ED890BB82A719CDD008C605E /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				ED890BBB2A719CFA008C605E /* SHLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		ED890BBD2A719E49008C605E /* SHLabel */ = {
+			isa = PBXGroup;
+			children = (
+				ED890BBE2A719E7C008C605E /* SHLabelSampleView.swift */,
+			);
+			path = SHLabel;
+			sourceTree = "<group>";
+		};
 		ED99AE972A55D4AC0013D295 = {
 			isa = PBXGroup;
 			children = (
@@ -1016,6 +1045,7 @@
 		ED99AF232A55E7810013D295 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				ED890BBD2A719E49008C605E /* SHLabel */,
 				EDF8749B2A604E46004DA638 /* FontsView */,
 				ED786EF22A5F36F200661893 /* ColorsFromHex */,
 				ED786EE92A5DE78400661893 /* ViewStatus */,
@@ -1878,6 +1908,7 @@
 				EDF874772A603F8A004DA638 /* UIVIPPresenter.swift in Sources */,
 				EDF874752A603F2E004DA638 /* DSConstants.swift in Sources */,
 				EDF8747A2A603F99004DA638 /* UIMVVMBaseViewController.swift in Sources */,
+				ED890BBC2A719CFA008C605E /* SHLabel.swift in Sources */,
 				EDD4BAE22A697CA6003C67FD /* UISHLabel.swift in Sources */,
 				ED890BAE2A6EE4E6008C605E /* UISHButton.swift in Sources */,
 				EDF8747C2A603FA2004DA638 /* UIViewCode.swift in Sources */,
@@ -1977,6 +2008,7 @@
 				ED08FFF62A5617E700CABB93 /* ApiSampleFactory.swift in Sources */,
 				ED786EED2A5DE7FC00661893 /* ViewStatusSampleView.swift in Sources */,
 				ED08FFEE2A5617B200CABB93 /* SwiftUISDKSampleApp.swift in Sources */,
+				ED890BBF2A719E7C008C605E /* SHLabelSampleView.swift in Sources */,
 				ED08FFF12A5617D600CABB93 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
