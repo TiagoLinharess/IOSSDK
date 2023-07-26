@@ -70,6 +70,7 @@
 		ED786EF42A5F370800661893 /* ColorsFromHexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED786EF32A5F370800661893 /* ColorsFromHexView.swift */; };
 		ED890BAE2A6EE4E6008C605E /* UISHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BAD2A6EE4E6008C605E /* UISHButton.swift */; };
 		ED890BB12A716878008C605E /* UISHButtonSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BB02A716878008C605E /* UISHButtonSampleViewController.swift */; };
+		ED890BB42A7196E5008C605E /* UISHButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED890BB32A7196E5008C605E /* UISHButtonTests.swift */; };
 		ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = ED99AEB22A55D4E50013D295 /* SDKCore.docc */; };
 		ED99AEB92A55D4E60013D295 /* SDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED99AEAF2A55D4E50013D295 /* SDKCore.framework */; };
 		ED99AEBF2A55D4E60013D295 /* SDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99AEB12A55D4E50013D295 /* SDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -285,6 +286,7 @@
 		ED786F032A5F4B6600661893 /* EmptyViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewModelMock.swift; sourceTree = "<group>"; };
 		ED890BAD2A6EE4E6008C605E /* UISHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButton.swift; sourceTree = "<group>"; };
 		ED890BB02A716878008C605E /* UISHButtonSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButtonSampleViewController.swift; sourceTree = "<group>"; };
+		ED890BB32A7196E5008C605E /* UISHButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHButtonTests.swift; sourceTree = "<group>"; };
 		ED99AEAF2A55D4E50013D295 /* SDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED99AEB12A55D4E50013D295 /* SDKCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCore.h; sourceTree = "<group>"; };
 		ED99AEB22A55D4E50013D295 /* SDKCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKCore.docc; sourceTree = "<group>"; };
@@ -760,6 +762,7 @@
 		ED786EFA2A5F42D100661893 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				ED890BB22A71953E008C605E /* Button */,
 				EDD4BAE62A6ED733003C67FD /* Label */,
 				EDF874682A602ED3004DA638 /* VIP */,
 				ED786EFB2A5F42DB00661893 /* MVVM */,
@@ -831,6 +834,14 @@
 				ED890BB02A716878008C605E /* UISHButtonSampleViewController.swift */,
 			);
 			path = UISHButton;
+			sourceTree = "<group>";
+		};
+		ED890BB22A71953E008C605E /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				ED890BB32A7196E5008C605E /* UISHButtonTests.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		ED99AE972A55D4AC0013D295 = {
@@ -1886,6 +1897,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED890BB42A7196E5008C605E /* UISHButtonTests.swift in Sources */,
 				EDF874A62A606AE2004DA638 /* FontsTests.swift in Sources */,
 				EDF8747E2A60403C004DA638 /* EmptyRouterMock.swift in Sources */,
 				EDF8747D2A604038004DA638 /* EmptyInteractorMock.swift in Sources */,
@@ -2520,7 +2532,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tiagolinhares.SwiftUISDKSample;
+				PRODUCT_BUNDLE_IDENTIFIER = tiagolinhares.SwiftUISDKSample.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -2551,7 +2563,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tiagolinhares.SwiftUISDKSample;
+				PRODUCT_BUNDLE_IDENTIFIER = tiagolinhares.SwiftUISDKSample.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
