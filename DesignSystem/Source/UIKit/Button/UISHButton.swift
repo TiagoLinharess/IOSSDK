@@ -73,6 +73,7 @@ private extension UISHButton {
         setupConstraints()
     }
     
+    /// Method for button configuration.
     func configure(text: String?, style: Style?, action: UIAction?) {
         self.text = text
         self.style = style
@@ -101,7 +102,7 @@ private extension UISHButton {
     
     // MARK: - View Configuration
     
-    /// Method for button configuration.
+    /// Method for button style configuration.
     func configureButton(text: String?, style: Style?) {
         guard let style, let text else { return }
         
