@@ -5,6 +5,7 @@
 //  Created by Tiago Linhares on 05/07/23.
 //
 
+import DesignSystem
 import UIKit
 
 @main
@@ -20,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow()
         window?.rootViewController = coordinator.navigationController
         window?.makeKeyAndVisible()
+        
+        DesignSystemConfiguration.loadFonts()
+        
         return true
     }
 
