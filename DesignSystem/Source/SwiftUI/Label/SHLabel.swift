@@ -7,49 +7,45 @@
 
 import SwiftUI
 
-public struct SHLabel: View {
+public struct SHLabelModifier: ViewModifier {
     
-    // MARK: - Public Properties
-    
-    /// Label value.
-    private let text: String
+    // MARK: - Properties
     
     /// Label color.
-    private let textColor: Color?
+    private let color: Color
     
     /// Label font.
-    private let font: Font?
-    
-    /// Label Action.
-    private let onClick: (() -> Void)?
+    private let font: Font
     
     // MARK: - Init
     
     /// Init with Color and Font parameters.
-    public init(text: String, textColor: Color? = nil, font: Font? = nil, onClick: (() -> Void)? = nil) {
-        self.text = text
-        self.textColor = textColor
+    public init(color: Color, font: Font) {
         self.font = font
-        self.onClick = onClick
-    }
-    
-    /// Init with UIColor and UIFont parameters.
-    public init(text: String, textColor: UIColor? = nil, font: UIFont? = nil, onClick: (() -> Void)? = nil) {
-        self.text = text
-        self.textColor = textColor?.color
-        self.font = font?.font
-        self.onClick = onClick
+        self.color = color
     }
     
     // MARK: - Body
     
-    /// Body view.
-    public var body: some View {
-        Text(text)
-            .foregroundColor(textColor)
+    /// Modifier body.
+    public func body(content: Content) -> some View {
+        content
+            .foregroundColor(color)
             .font(font)
-            .onTapGesture {
-                onClick?()
-            }
+    }
+}
+
+extension View {
+    
+    // MARK: - Modifier Implementation
+    
+    /// Function for Color and Font parameters.
+    public func configureWithSH(color: Color, font: Font) -> some View {
+        modifier(SHLabelModifier(color: color, font: font))
+    }
+    
+    /// Function for UIColor and UIFont parameters.
+    public func configureWithSH(color: UIColor, font: UIFont) -> some View {
+        modifier(SHLabelModifier(color: color.color, font: font.font))
     }
 }

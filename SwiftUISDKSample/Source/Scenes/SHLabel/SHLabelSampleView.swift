@@ -11,22 +11,15 @@ import SwiftUI
 struct SHLabelSampleView: View {
     
     var body: some View {
-        SHLabel(
-            text: "Hello SHLabel",
-            textColor: .blue100,
-            font: .body(.poppins, .medium)
-        )
-        SHLabel(
-            text: "Hello SHLabel",
-            textColor: .red100,
-            font: .caption(.montserrat, .bold)
-        )
-        SHLabel(
-            text: "Hello SHLabel",
-            textColor: .green100,
-            font: .body(.poppins, .medium)
-        ) {
-            print("Hello SHLabel")
+        Label("Hello SHLabel", systemImage: "pencil")
+            .configureWithSH(color: .darkContent, font: .title3(.montserrat, .medium))
+        Label {
+            Text("Hello SHLabel")
+        } icon: {
+            Image(systemName: "info.circle")
         }
+        .configureWithSH(color: .blue100, font: .subtitle(.montserrat, .medium))
+        Text("Hello SHLabel")
+            .configureWithSH(color: .gray100, font: .body(.poppins, .regular))
     }
 }
