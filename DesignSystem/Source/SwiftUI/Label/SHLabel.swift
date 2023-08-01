@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct SHLabelModifier: ViewModifier {
+private struct SHLabelModifier: ViewModifier {
     
     // MARK: - Properties
     
@@ -20,7 +20,7 @@ public struct SHLabelModifier: ViewModifier {
     // MARK: - Init
     
     /// Init with Color and Font parameters.
-    public init(color: Color, font: Font) {
+    init(color: Color, font: Font) {
         self.font = font
         self.color = color
     }
@@ -28,16 +28,31 @@ public struct SHLabelModifier: ViewModifier {
     // MARK: - Body
     
     /// Modifier body.
-    public func body(content: Content) -> some View {
+    func body(content: Content) -> some View {
         content
             .foregroundColor(color)
             .font(font)
     }
 }
 
-extension View {
+extension Label {
     
-    // MARK: - Modifier Implementation
+    // MARK: - Label Modifier Implementation
+    
+    /// Function for Color and Font parameters.
+    public func configureWithSH(color: Color, font: Font) -> some View {
+        modifier(SHLabelModifier(color: color, font: font))
+    }
+    
+    /// Function for UIColor and UIFont parameters.
+    public func configureWithSH(color: UIColor, font: UIFont) -> some View {
+        modifier(SHLabelModifier(color: color.color, font: font.font))
+    }
+}
+
+extension Text {
+    
+    // MARK: - Text Modifier Implementation
     
     /// Function for Color and Font parameters.
     public func configureWithSH(color: Color, font: Font) -> some View {
