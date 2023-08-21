@@ -5,7 +5,6 @@
 //  Created by Tiago Linhares on 20/07/23.
 //
 
-import SnapKit
 import UIKit
 
 public final class UISHLabel: UIView {
@@ -48,6 +47,7 @@ public final class UISHLabel: UIView {
         let stackView = UIStackView()
         stackView.axis = .horizontal
         stackView.distribution = .fill
+        stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView
     }()
     
@@ -100,9 +100,12 @@ private extension UISHLabel {
     
     /// Method for component constraints.
     func setupConstraints() {
-        stackView.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
+        NSLayoutConstraint.activate([
+            stackView.topAnchor.constraint(equalTo: topAnchor),
+            stackView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            stackView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            stackView.trailingAnchor.constraint(equalTo: trailingAnchor)
+        ])
     }
 }
 

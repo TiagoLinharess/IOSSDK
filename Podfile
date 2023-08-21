@@ -37,7 +37,6 @@ end
 target 'DesignSystem' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  snap_kit_pod
 
   target 'DesignSystemTests' do
     pods_for_tests

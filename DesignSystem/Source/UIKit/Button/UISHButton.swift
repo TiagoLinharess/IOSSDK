@@ -5,7 +5,6 @@
 //  Created by Tiago Linhares on 24/07/23.
 //
 
-import SnapKit
 import UIKit
 
 public final class UISHButton: UIView {
@@ -33,6 +32,7 @@ public final class UISHButton: UIView {
     private lazy var button: UIButton = {
         let button = UIButton(configuration: .plain())
         button.layer.cornerRadius = .extraSmall
+        button.translatesAutoresizingMaskIntoConstraints = false
         button.configuration?.contentInsets = .init(
             top: .smaller,
             leading: .smaller,
@@ -92,9 +92,12 @@ private extension UISHButton {
     
     /// Method for component constraints.
     func setupConstraints() {
-        button.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
-        }
+        NSLayoutConstraint.activate([
+            button.topAnchor.constraint(equalTo: topAnchor),
+            button.bottomAnchor.constraint(equalTo: bottomAnchor),
+            button.leadingAnchor.constraint(equalTo: leadingAnchor),
+            button.trailingAnchor.constraint(equalTo: trailingAnchor)
+        ])
     }
 }
 

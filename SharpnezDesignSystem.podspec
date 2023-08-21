@@ -11,5 +11,4 @@ Pod::Spec.new do |spec|
   spec.resources    = 'DesignSystem/Resources/Fonts/*.ttf'
   spec.source_files = 'DesignSystem/**/*.swift'
   spec.framework    = 'SystemConfiguration'
-  spec.dependency 'SnapKit', '~> 5.6.0'
 end
