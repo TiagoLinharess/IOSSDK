@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'SharpnezCore'
-  spec.version      = '1.0.0'
+  spec.version      = '1.1.0'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/TiagoLinharess/IOSSDK.git'
   spec.authors      = { 'Tiago Linhares' => 'tiagolinharessouza@gmail.com' }
