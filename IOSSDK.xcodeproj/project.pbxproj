@@ -100,6 +100,8 @@
 		EDD4BAE22A697CA6003C67FD /* UISHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4BAE12A697CA6003C67FD /* UISHLabel.swift */; };
 		EDD4BAE52A69AD60003C67FD /* UISHLabelSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4BAE42A69AD60003C67FD /* UISHLabelSampleViewController.swift */; };
 		EDD4BAE82A6ED7B4003C67FD /* UISHLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD4BAE72A6ED7B4003C67FD /* UISHLabelTests.swift */; };
+		EDF407982AB469AA004AC8A9 /* CoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF407972AB469AA004AC8A9 /* CoreError.swift */; };
+		EDF4079B2AB46F3A004AC8A9 /* CoreErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF4079A2AB46F3A004AC8A9 /* CoreErrorTests.swift */; };
 		EDF8745C2A6027B7004DA638 /* VIPSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8745B2A6027B7004DA638 /* VIPSceneView.swift */; };
 		EDF8745E2A602949004DA638 /* VIPSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8745D2A602949004DA638 /* VIPSceneRouter.swift */; };
 		EDF874612A6029FB004DA638 /* VIPSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF874602A6029FB004DA638 /* VIPSceneViewController.swift */; };
@@ -341,6 +343,8 @@
 		EDD4BAE12A697CA6003C67FD /* UISHLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHLabel.swift; sourceTree = "<group>"; };
 		EDD4BAE42A69AD60003C67FD /* UISHLabelSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHLabelSampleViewController.swift; sourceTree = "<group>"; };
 		EDD4BAE72A6ED7B4003C67FD /* UISHLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISHLabelTests.swift; sourceTree = "<group>"; };
+		EDF407972AB469AA004AC8A9 /* CoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreError.swift; sourceTree = "<group>"; };
+		EDF4079A2AB46F3A004AC8A9 /* CoreErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreErrorTests.swift; sourceTree = "<group>"; };
 		EDF8744F2A5F525B004DA638 /* UIVIPBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPBaseViewController.swift; sourceTree = "<group>"; };
 		EDF874522A5F53A9004DA638 /* UIVIPInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPInteractor.swift; sourceTree = "<group>"; };
 		EDF874552A5F546B004DA638 /* UIVIPPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIPPresenter.swift; sourceTree = "<group>"; };
@@ -1141,6 +1145,7 @@
 		ED99AF332A55E82E0013D295 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EDF407962AB4699B004AC8A9 /* Error */,
 				EDF874722A603CF7004DA638 /* Extensions */,
 				ED786ED92A5D9D4F00661893 /* Constants */,
 			);
@@ -1222,6 +1227,22 @@
 			path = Label;
 			sourceTree = "<group>";
 		};
+		EDF407962AB4699B004AC8A9 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				EDF407972AB469AA004AC8A9 /* CoreError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		EDF407992AB46F2A004AC8A9 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				EDF4079A2AB46F3A004AC8A9 /* CoreErrorTests.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
 		EDF8744D2A5F50D6004DA638 /* VIP */ = {
 			isa = PBXGroup;
 			children = (
@@ -1290,6 +1311,7 @@
 		EDF874832A604297004DA638 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				EDF407992AB46F2A004AC8A9 /* Error */,
 				EDF874842A6042AF004DA638 /* UIImageView */,
 			);
 			path = Source;
@@ -2022,6 +2044,7 @@
 			files = (
 				ED99AF362A55E8AC0013D295 /* ViewStatus.swift in Sources */,
 				ED99AEB32A55D4E50013D295 /* SDKCore.docc in Sources */,
+				EDF407982AB469AA004AC8A9 /* CoreError.swift in Sources */,
 				ED653AB92A56F38E0022A06F /* UIImageView+Core+extensions.swift in Sources */,
 				ED786EDF2A5DCD9100661893 /* CoreConstants.swift in Sources */,
 			);
@@ -2032,6 +2055,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF8748A2A604526004DA638 /* UIImageViewTests.swift in Sources */,
+				EDF4079B2AB46F3A004AC8A9 /* CoreErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
