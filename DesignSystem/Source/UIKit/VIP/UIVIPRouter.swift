@@ -11,8 +11,8 @@ open class UIVIPRouter {
     
     // MARK: - Public Properties
     
-    /// UINavigationController
-    public var navigationController: UINavigationController?
+    /// UIViewController
+    public var viewController: UIViewController?
     
     // MARK: - Init
     

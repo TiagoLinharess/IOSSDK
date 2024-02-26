@@ -3,7 +3,7 @@
  platform :ios, '16.4'
 
 def pods_for_tests
-  pod 'SnapshotTesting', '~> 1.9.0'
+  pod 'SnapshotTesting', '~> 1.9'
 end
 
 def snap_kit_pod

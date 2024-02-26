@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension CGFloat {
     
@@ -102,4 +103,7 @@ extension CGFloat {
     /// superGiant
     /// 80.00
     public static var superGiant: Self { 80.00 }
+    
+    /// A computed property representing the width of the device's screen.
+    public static var deviceWidth: Self { UIScreen.main.bounds.width }
 }

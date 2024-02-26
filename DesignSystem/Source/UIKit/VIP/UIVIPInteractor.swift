@@ -17,7 +17,7 @@ open class UIVIPInteractor<Presenter> {
     // MARK: - Init
     
     /// Initialize
-    required public init(presenter: Presenter) {
+    public init(presenter: Presenter) {
         self.presenter = presenter
     }
 }

@@ -23,7 +23,7 @@ open class UIVIPBaseViewController<CustomView: UIView, Interactor, Router>: UIVi
     // MARK: - Init
     
     /// View Code Init
-    required public init(customView: CustomView, interactor: Interactor, router: Router) {
+    public init(customView: CustomView, interactor: Interactor, router: Router) {
         self.customView = customView
         self.interactor = interactor
         self.router = router
@@ -40,6 +40,10 @@ open class UIVIPBaseViewController<CustomView: UIView, Interactor, Router>: UIVi
     
     open override func viewDidLoad() {
         super.viewDidLoad()
+        dismissKeyboard()
+    }
+    
+    open override func loadView() {
         view = customView
     }
 }

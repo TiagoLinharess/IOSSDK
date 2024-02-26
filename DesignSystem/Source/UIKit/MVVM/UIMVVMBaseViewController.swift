@@ -27,4 +27,11 @@ open class UIMVVMBaseViewController<ViewModel>: UIViewController {
     required public init?(coder: NSCoder) {
         fatalError(DSConstants.UIKit.coderInitMessage)
     }
+    
+    // MARK: - View Life Cicle
+    
+    open override func viewDidLoad() {
+        super.viewDidLoad()
+        dismissKeyboard()
+    }
 }
