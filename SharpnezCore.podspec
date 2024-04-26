@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/TiagoLinharess/IOSSDK.git', :tag => 'core-1.2.0' }
   spec.platforms    = { :ios => "16.4" }
   spec.swift_version = '5.8.1'
-  spec.vendored_frameworks = 'SDKCore.xcframework'
+  spec.vendored_frameworks = 'SharpnezCore.xcframework'
   spec.framework    = 'SystemConfiguration'
 end
