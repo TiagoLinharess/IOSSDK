@@ -1,0 +1,877 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ViewStatus",
+        "printedName": "ViewStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDKCore.ViewStatus.Type) -> SDKCore.ViewStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewStatus",
+                    "printedName": "SDKCore.ViewStatus",
+                    "usr": "s:7SDKCore10ViewStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDKCore.ViewStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewStatus",
+                        "printedName": "SDKCore.ViewStatus",
+                        "usr": "s:7SDKCore10ViewStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SDKCore10ViewStatusO7successyA2CmF",
+            "mangledName": "$s7SDKCore10ViewStatusO7successyA2CmF",
+            "moduleName": "SDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "loading",
+            "printedName": "loading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDKCore.ViewStatus.Type) -> SDKCore.ViewStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewStatus",
+                    "printedName": "SDKCore.ViewStatus",
+                    "usr": "s:7SDKCore10ViewStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDKCore.ViewStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewStatus",
+                        "printedName": "SDKCore.ViewStatus",
+                        "usr": "s:7SDKCore10ViewStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SDKCore10ViewStatusO7loadingyA2CmF",
+            "mangledName": "$s7SDKCore10ViewStatusO7loadingyA2CmF",
+            "moduleName": "SDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDKCore.ViewStatus.Type) -> SDKCore.ViewStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewStatus",
+                    "printedName": "SDKCore.ViewStatus",
+                    "usr": "s:7SDKCore10ViewStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDKCore.ViewStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewStatus",
+                        "printedName": "SDKCore.ViewStatus",
+                        "usr": "s:7SDKCore10ViewStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SDKCore10ViewStatusO4noneyA2CmF",
+            "mangledName": "$s7SDKCore10ViewStatusO4noneyA2CmF",
+            "moduleName": "SDKCore"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDKCore.ViewStatus.Type) -> (Swift.String) -> SDKCore.ViewStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> SDKCore.ViewStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewStatus",
+                        "printedName": "SDKCore.ViewStatus",
+                        "usr": "s:7SDKCore10ViewStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDKCore.ViewStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ViewStatus",
+                        "printedName": "SDKCore.ViewStatus",
+                        "usr": "s:7SDKCore10ViewStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SDKCore10ViewStatusO5erroryACSScACmF",
+            "mangledName": "$s7SDKCore10ViewStatusO5erroryACSScACmF",
+            "moduleName": "SDKCore"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewStatus",
+                "printedName": "SDKCore.ViewStatus",
+                "usr": "s:7SDKCore10ViewStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ViewStatus",
+                "printedName": "SDKCore.ViewStatus",
+                "usr": "s:7SDKCore10ViewStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SDKCore10ViewStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7SDKCore10ViewStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "SDKCore",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7SDKCore10ViewStatusO",
+        "mangledName": "$s7SDKCore10ViewStatusO",
+        "moduleName": "SDKCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreError",
+        "printedName": "CoreError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "genericError",
+            "printedName": "genericError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDKCore.CoreError.Type) -> SDKCore.CoreError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CoreError",
+                    "printedName": "SDKCore.CoreError",
+                    "usr": "s:7SDKCore9CoreErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDKCore.CoreError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreError",
+                        "printedName": "SDKCore.CoreError",
+                        "usr": "s:7SDKCore9CoreErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SDKCore9CoreErrorO07genericC0yA2CmF",
+            "mangledName": "$s7SDKCore9CoreErrorO07genericC0yA2CmF",
+            "moduleName": "SDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parseError",
+            "printedName": "parseError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDKCore.CoreError.Type) -> SDKCore.CoreError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CoreError",
+                    "printedName": "SDKCore.CoreError",
+                    "usr": "s:7SDKCore9CoreErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDKCore.CoreError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreError",
+                        "printedName": "SDKCore.CoreError",
+                        "usr": "s:7SDKCore9CoreErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SDKCore9CoreErrorO05parseC0yA2CmF",
+            "mangledName": "$s7SDKCore9CoreErrorO05parseC0yA2CmF",
+            "moduleName": "SDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customError",
+            "printedName": "customError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDKCore.CoreError.Type) -> (Swift.String) -> SDKCore.CoreError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> SDKCore.CoreError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreError",
+                        "printedName": "SDKCore.CoreError",
+                        "usr": "s:7SDKCore9CoreErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDKCore.CoreError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreError",
+                        "printedName": "SDKCore.CoreError",
+                        "usr": "s:7SDKCore9CoreErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7SDKCore9CoreErrorO06customC0yACSScACmF",
+            "mangledName": "$s7SDKCore9CoreErrorO06customC0yACSScACmF",
+            "moduleName": "SDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SDKCore9CoreErrorO7messageSSvp",
+            "mangledName": "$s7SDKCore9CoreErrorO7messageSSvp",
+            "moduleName": "SDKCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SDKCore9CoreErrorO7messageSSvg",
+                "mangledName": "$s7SDKCore9CoreErrorO7messageSSvg",
+                "moduleName": "SDKCore",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7SDKCore9CoreErrorO",
+        "mangledName": "$s7SDKCore9CoreErrorO",
+        "moduleName": "SDKCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreConstants",
+        "printedName": "CoreConstants",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "UIKit",
+            "printedName": "UIKit",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "defaultURLImageName",
+                "printedName": "defaultURLImageName",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7SDKCore13CoreConstantsO5UIKitO19defaultURLImageNameSSvpZ",
+                "mangledName": "$s7SDKCore13CoreConstantsO5UIKitO19defaultURLImageNameSSvpZ",
+                "moduleName": "SDKCore",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7SDKCore13CoreConstantsO5UIKitO19defaultURLImageNameSSvgZ",
+                    "mangledName": "$s7SDKCore13CoreConstantsO5UIKitO19defaultURLImageNameSSvgZ",
+                    "moduleName": "SDKCore",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7SDKCore13CoreConstantsO5UIKitO",
+            "mangledName": "$s7SDKCore13CoreConstantsO5UIKitO",
+            "moduleName": "SDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CoreError",
+            "printedName": "CoreError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "genericErrorMessage",
+                "printedName": "genericErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7SDKCore13CoreConstantsO0B5ErrorO07genericD7MessageSSvpZ",
+                "mangledName": "$s7SDKCore13CoreConstantsO0B5ErrorO07genericD7MessageSSvpZ",
+                "moduleName": "SDKCore",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7SDKCore13CoreConstantsO0B5ErrorO07genericD7MessageSSvgZ",
+                    "mangledName": "$s7SDKCore13CoreConstantsO0B5ErrorO07genericD7MessageSSvgZ",
+                    "moduleName": "SDKCore",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "parseErrorMessage",
+                "printedName": "parseErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:7SDKCore13CoreConstantsO0B5ErrorO05parseD7MessageSSvpZ",
+                "mangledName": "$s7SDKCore13CoreConstantsO0B5ErrorO05parseD7MessageSSvpZ",
+                "moduleName": "SDKCore",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:7SDKCore13CoreConstantsO0B5ErrorO05parseD7MessageSSvgZ",
+                    "mangledName": "$s7SDKCore13CoreConstantsO0B5ErrorO05parseD7MessageSSvgZ",
+                    "moduleName": "SDKCore",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:7SDKCore13CoreConstantsO0B5ErrorO",
+            "mangledName": "$s7SDKCore13CoreConstantsO0B5ErrorO",
+            "moduleName": "SDKCore",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7SDKCore13CoreConstantsO",
+        "mangledName": "$s7SDKCore13CoreConstantsO",
+        "moduleName": "SDKCore",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImageView",
+        "printedName": "UIImageView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cornerRadius",
+            "printedName": "cornerRadius(radius:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC7SDKCoreE12cornerRadius6radiusy14CoreFoundation7CGFloatV_tF",
+            "mangledName": "$sSo11UIImageViewC7SDKCoreE12cornerRadius6radiusy12CoreGraphics7CGFloatV_tF",
+            "moduleName": "SDKCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIImageViewC7SDKCoreE4load3urly10Foundation3URLVSg_tF",
+            "mangledName": "$sSo11UIImageViewC7SDKCoreE4load3urly10Foundation3URLVSg_tF",
+            "moduleName": "SDKCore",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImageView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImageView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/tiagolinhares\/Documents\/ProjetosPessoais\/IOSSDK\/SDKCore\/Source\/Constants\/CoreConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 25,
+      "value": "\"exclamationmark.octagon\""
+    },
+    {
+      "filePath": "\/Users\/tiagolinhares\/Documents\/ProjetosPessoais\/IOSSDK\/SDKCore\/Source\/Constants\/CoreConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 613,
+      "length": 46,
+      "value": "\"Something went wrong, please try again later\""
+    },
+    {
+      "filePath": "\/Users\/tiagolinhares\/Documents\/ProjetosPessoais\/IOSSDK\/SDKCore\/Source\/Constants\/CoreConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 78,
+      "value": "\"Something went wrong while searching for information, please try again later\""
+    }
+  ]
+}
